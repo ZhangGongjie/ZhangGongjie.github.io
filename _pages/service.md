@@ -1,28 +1,34 @@
 ---
 permalink: /service/
-title: "Academic Services"
-excerpt: "Academic Services"
+title: "Academic Service"
+excerpt: "Academic Service"
 author_profile: true
 ---
 
 Conference Reviewer
 ------
 WACV 2021
+
 CVPR 2021
+
 ICCV 2021
+
 AAAI 2021
 
 
 
-Journal Reviewer
+Journal External Reviewer
 ------
 T-PAMI
+
 T-IP
+
 Neurocomputing
+
 
 
 
 Teaching Assistant
 ------
-CE1008   Engineering Mathematics   2018-fall
+CE1008 &emsp; Engineering Mathematics &emsp; 2018-fall
 

@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Publication List"
+permalink: /publication/
 author_profile: true
 ---
 

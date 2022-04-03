@@ -13,8 +13,6 @@ CVPR 2021
 
 ICCV 2021
 
-AAAI 2021
-
 
 
 Journal External Reviewer

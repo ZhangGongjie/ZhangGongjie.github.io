@@ -11,9 +11,8 @@ redirect_from:
 
 Biography
 --------
-Gongjie Zhang is currenlty a Ph.D. candidate with the School of Computer Science and Engieering, Nanyang Technological University, Singapore, supervised by Prof. Shijian Lu. Before that, he obtained his B.Eng degree in Electronics and Information Engineering from Northeastern University, Shenyang, China. His research interests include computer vision, especially object detection, few-shot learning, and vision Transformers.
+Gongjie Zhang is currently a Ph.D. candidate in computer science at Nanyang Technological University, Singapore, supervised by Prof. Shijian Lu. Before that, he obtained his B.Eng degree in Electronics and Information Engineering from Northeastern University, China. 
+
+His research interests include computer vision and deep learning. Recently, he has been particularly interested in (few-shot) object detection with vision Transformers.
 
 
-Contact
---------
-Email: GongjieZhang@ntu.edu.sg

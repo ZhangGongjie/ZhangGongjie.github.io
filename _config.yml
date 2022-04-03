@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gongjie Zhang<br>（张功杰）"
-  avatar           : "profile.png"
+  name             : "Gongjie Zhang<br> （张功杰）"
+  avatar           : "profile.jpg"
   bio              : "Computer Vision Researcher<br>Ph.D. Candidate @ Nanyang Technological Univeristy"
   location         : "Singapore"
   employer         :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  orcid            : "http://orcid.org/0000-0003-0506-8357"
   linkedin         : "gongjie-z-25538216a"
+  orcid            : "http://orcid.org/0000-0003-0506-8357"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

@@ -20,6 +20,6 @@ His research interests include computer vision and machine learning, especially 
 
 Contact
 ------
-Email: GongjieZhang@ntu.edu.sg
+**Email:** GongjieZhang@ntu.edu.sg
 
-Office: S-Lab for Advanced Intelligence, Academic Block North, Nanyang Technological University, 61 Nanyang Dr, Singapore 637335
+**Office:** S-Lab for Advanced Intelligence, Academic Block North, Nanyang Technological University, 61 Nanyang Dr, Singapore 637335

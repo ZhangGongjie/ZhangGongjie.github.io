@@ -17,3 +17,9 @@ Gongjie Zhang is currently a Ph.D. candidate in computer science at Nanyang Tech
 
 His research interests include computer vision and machine learning, especially object detection. Recently, he has been particularly interested in (few-shot) object detection with vision Transformers.
 
+
+Contact
+------
+Email: GongjieZhang@ntu.edu.sg
+
+Office: S-Lab for Advanced Intelligence, Academic Block North, Nanyang Technological University, 61 Nanyang Dr, Singapore 637335

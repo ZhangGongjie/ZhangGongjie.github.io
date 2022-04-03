@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Gongjie Zhang's Homepage!"
+title: ""
 excerpt: "Home"
 author_profile: true
 redirect_from: 

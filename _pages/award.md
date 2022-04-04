@@ -5,7 +5,6 @@ permalink: /award/
 author_profile: true
 ---
 
-* List item one 
-* List item two
-* List item three
-* List item four
+* 2015, 2017 National Scholarship of China
+* 2015, 2016, 2017, 2018 First-Class Scholarship of Northeastern University
+* 2016 HUAWEI Scholarship

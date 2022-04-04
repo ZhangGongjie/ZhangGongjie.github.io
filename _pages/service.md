@@ -7,21 +7,17 @@ author_profile: true
 
 Conference Reviewer
 ------
-WACV 2021
-
-CVPR 2021
-
-ICCV 2021
+* WACV 2021
+* CVPR 2021
+* ICCV 2021
 
 
 
 Journal External Reviewer
 ------
-T-PAMI
-
-T-IP
-
-Neurocomputing
+* IEEE Trans. on Pattern Recognition and Machine Intelligence (T-PAMI)
+* IEEE Trans. on Image Processing (T-IP)
+* Neurocomputing
 
 
 

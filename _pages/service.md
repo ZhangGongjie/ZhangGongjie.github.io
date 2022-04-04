@@ -15,7 +15,7 @@ Conference Reviewer
 
 Journal External Reviewer
 ------
-* IEEE Trans. on Pattern Recognition and Machine Intelligence (T-PAMI)
+* IEEE Trans. on Pattern Analysis and Machine Intelligence (T-PAMI)
 * IEEE Trans. on Image Processing (T-IP)
 * Neurocomputing
 

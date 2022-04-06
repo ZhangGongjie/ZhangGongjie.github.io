@@ -5,6 +5,9 @@ permalink: /publication/
 author_profile: true
 ---
 
+------
+See also: [my Google Scholar page](https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en).
+------
 
 * **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu. "Accelerating DETR Convergence via Semantic-Aligned Matching." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022.
 * Kaiwen Cui, Jiaxing Huang, Zhipeng Luo, **Gongjie Zhang**, Fangneng Zhan, and Shijian Lu. "GenCo: Generative Co-training for Generative Adversarial Networks with Limited Data." In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI). 2022.
@@ -19,5 +22,3 @@ author_profile: true
 
 
 
-------
-My publication list is also available at [my Google Scholar page](https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en).

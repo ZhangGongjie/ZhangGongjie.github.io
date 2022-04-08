@@ -3,7 +3,11 @@ permalink: /patent/
 title: "Patent"
 excerpt: "Patent"
 author_profile: true
+blockquote {
+font-style: normal !important;
+}
 ---
+
 
 
 ------

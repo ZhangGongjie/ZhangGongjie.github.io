@@ -6,12 +6,6 @@ author_profile: true
 ---
 
 
-blockquote {
-font-style: normal !important;
-}
-
-
-
 ------
 
 > **Defect Sample Synthesis Method, Training Method of Defect Inspection Network, Computer-Readable Medium, Computing System, and Image Inspection Apparatus**

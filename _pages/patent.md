@@ -14,7 +14,7 @@ author_profile: true
 >
 > Inventors: **Gongjie Zhang**, Kaiwen Cui, Shijian Lu and Tzuyi Hung. 
 >  
-> Proprietor: Delta Electronics Int’l (Singapore) 台達電子國際（新加坡）
+> Proprietor: Delta Electronics Int’l (Singapore) &nbsp; 台達電子國際（新加坡）
 > 
 > * Singapore Patent Number: 10202114457P (Under Review)
 > * China Patent Number: 202111625352.2 (Under Review)

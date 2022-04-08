@@ -16,7 +16,7 @@ author_profile: true
 >   
 > * Singapore Patent Number: 10202114457P (Under Review)
 > * China Patent Number: 202111625352.2 (Under Review)
-> * _Separate Customs Territory of Taiwan, Penghu, Kinmen, and Matsu_ Patent Number: 110149093 (Under Review)
+> * Taiwan, Penghu, Kinmen, and Matsu (Separate Customs Territory) Patent Number: 110149093 (Under Review)
 
 ------
 

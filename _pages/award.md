@@ -5,6 +5,9 @@ permalink: /award/
 author_profile: true
 ---
 
+
+------
+
 * **Jun 2018** &emsp; Outstanding Graduation Project of the School of Computer Science and Engineering, Northeastern University
 * **Nov 2017** &emsp; National Scholarship of China
 * **Oct 2016** &emsp; HUAWEI Scholarship

@@ -5,5 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
+------
 
-My research highlights page is currently under construction.
+
+> **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
+>  
+> **Gongjie Zhang**, Shijian Lu, and Wei Zhang

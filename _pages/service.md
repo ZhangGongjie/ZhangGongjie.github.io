@@ -27,5 +27,5 @@ author_profile: true
 
 
 ### Teaching Assistant
-* 18-fall CE1008 Engineering Mathematics
+* 18-fall &nbsp;CE1008 &nbsp;Engineering Mathematics
 

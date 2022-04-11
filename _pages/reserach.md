@@ -17,6 +17,8 @@ author_profile: true
 
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
+>
+> <img src="/images/SAM-DETR.jpg" alt="drawing" width="150"/>
 >  
 > **Gongjie Zhang**, Zhipeng Luo, Kaiwen Cui, and Shijian Lu
 

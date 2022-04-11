@@ -33,6 +33,8 @@ linespace { color: gray; font-size: 0.2em}
 >
 > <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="600"/>
 >
+> **TL;DR**&emsp; Meta-DETR entirely bypasses the proposal quality gap between base and novel classes, thus achieving better performance than R-CNN-based detectors. In addition, Meta-DETR meta-learns on a set of support classes, thus effectively leveraging the inter-class correlation for better transferability.
+>
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author><venue><br>Tech Report, ArXiv preprint: 2103.11731v3</venue>
 
 ---

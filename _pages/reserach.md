@@ -17,7 +17,7 @@ author { color: gray; font-size: 0.8em}
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
->  **<gray>Gongjie Zhang<gray>**<gray>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu <gray>
+>  <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author>
 >
 > <img src="/images/SAM-DETR.jpg" alt="drawing" width="500"/>
 

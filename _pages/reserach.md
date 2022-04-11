@@ -48,10 +48,12 @@ space { color: gray; font-size: 0.1em}
 
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >  
-> <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen</author>  
-> 
->
-> <venue>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020</venue>
+> <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen  </author>  
+>      <space> &emsp;      </space>     
+>    
+>    
+>    
+>   <venue>  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020</venue>
 
 
 

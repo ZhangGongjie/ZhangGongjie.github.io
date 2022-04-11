@@ -10,6 +10,7 @@ author_profile: true
 firstauthor { color: gray; font-weight: bold; font-size: 0.8em}
 author { color: gray; font-size: 0.8em}
 venue { color: gray; font-size: 0.8em}
+linespace { color: gray; font-size: 0.2em}
 </style>
 
 
@@ -25,20 +26,20 @@ venue { color: gray; font-size: 0.8em}
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 
 
-<author><br></author>
+<linespace><br></linespace>
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author><venue><br>Tech Report, ArXiv Preprint: 2103.11731v3</venue>
 
 
-<author><br></author>
+<linespace><br></linespace>
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu</author><venue><br>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</venue>
 
 
-<author><br></author>
+<linespace><br></linespace>
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >
 > <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>
@@ -46,7 +47,7 @@ venue { color: gray; font-size: 0.8em}
 > <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020</venue>
 
 
-<author><br></author>
+<linespace><br></linespace>
 > **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
 >
 > <img src="/images/CAD-Net.jpg" alt="CAD-Net" width="600"/>

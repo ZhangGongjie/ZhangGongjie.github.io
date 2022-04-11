@@ -10,7 +10,6 @@ author_profile: true
 firstauthor { color: gray; font-weight: bold; font-size: 0.8em}
 author { color: gray; font-size: 0.8em}
 venue { color: gray; font-size: 0.8em}
-linespace { color: gray; font-size: 0.2em}
 </style>
 
 

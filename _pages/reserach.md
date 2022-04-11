@@ -18,7 +18,7 @@ venue { color: gray; font-size: 0.8em}
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="600"/>
+> <img src="/images/SAM-DETR.jpg" alt="drawing" width="550"/>
 >
 > **TL;DR**&emsp; This paper presents _SAM-DETR_, an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
 >
@@ -55,6 +55,8 @@ venue { color: gray; font-size: 0.8em}
 
 
 > **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
+>
+> <img src="/images/CAD-Net.jpg" alt="drawing" width="550"/>
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang</author>  
 >    

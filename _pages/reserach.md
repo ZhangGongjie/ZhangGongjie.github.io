@@ -6,6 +6,11 @@ author_profile: true
 ---
 
 
+<style>
+gray { color: gray }
+</style>
+
+
 ------
 
 
@@ -13,12 +18,12 @@ author_profile: true
 >
 > ![SAM-DETR](/images/SAM-DETR.jpg)
 >
-> **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu
+> <gray> **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu <gray>
 
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="150"/>
+> <img src="/images/SAM-DETR.jpg" alt="drawing" width="350"/>
 >  
 > **Gongjie Zhang**, Zhipeng Luo, Kaiwen Cui, and Shijian Lu
 

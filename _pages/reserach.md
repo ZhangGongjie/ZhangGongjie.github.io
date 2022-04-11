@@ -17,9 +17,11 @@ author { color: gray; font-size: 0.8em}
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
->  <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author>
+> <img src="/images/SAM-DETR.jpg" alt="drawing" width="550"/>
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="500"/>
+> **TL;DR**&emsp; _SAM-DETR_ is an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
+>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author>
 
 
 

@@ -18,7 +18,7 @@ gray { color: gray }
 >
 >  **<gray>Gongjie Zhang<gray>**<gray>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu <gray>
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="600"/>
+> <img src="/images/SAM-DETR.jpg" alt="drawing" width="500"/>
 
 
 

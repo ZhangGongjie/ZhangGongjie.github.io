@@ -29,14 +29,18 @@ linespace { color: gray; font-size: 0.2em}
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
->  
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author><venue><br>Tech Report, ArXiv Preprint: 2103.11731v3</venue>
+> <img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="600"/>
+> <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="600"/>
+>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author><venue><br>Tech Report, ArXiv preprint: 2103.11731v3</venue>
 
 ---
 
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**
 >
 > <img src="/images/DefectGAN.jpg" alt="Defect-GAN" width="600"/>
+>
+> **TL;DR**&emsp; We achieve realistic and vivid facial expression editing by designing separate branches focusing on certain areas (e.g., eyes, noses), and perform the expression transformation in a cascaded manner.
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu</author><venue><br>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</venue>
 

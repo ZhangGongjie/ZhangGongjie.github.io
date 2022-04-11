@@ -10,6 +10,7 @@ author_profile: true
 firstauthor { color: gray; font-weight: bold; font-size: 0.8em}
 author { color: gray; font-size: 0.8em}
 venue { color: gray; font-size: 0.8em}
+space { color: gray; font-size: 0.1em}
 </style>
 
 
@@ -60,6 +61,6 @@ venue { color: gray; font-size: 0.8em}
 >
 > **TL;DR**&emsp; One of the earliest works to apply Faster R-CNN to rotated object detection in remote sensing images. The proposed CAD-Net effectively uses multi-level contextual information for robust object detection for satellite imagery.
 >  
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang</author>&emsp;
->
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang&emsp;</author>
+> <space> &emsp; </space>
 > <venue>IEEE Transactions on Geoscience and Remote Sensing (T-GRS) vol. 57, no. 12, 2019</venue>

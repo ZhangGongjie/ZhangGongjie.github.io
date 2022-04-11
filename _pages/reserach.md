@@ -29,7 +29,7 @@ linespace { color: gray; font-size: 0.2em}
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
-> <center><img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="380"/></center>
+> <img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="600"/>
 >
 > <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="600"/>
 >

@@ -48,7 +48,7 @@ space { color: gray; font-size: 0.1em}
 
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >
-> > <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>
+> <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>
 >  
 > <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen  </author>  
 > <space> &emsp;   </space>

@@ -18,9 +18,9 @@ venue { color: gray; font-size: 0.8em}
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="550"/>
+> <img src="/images/SAM-DETR.jpg" alt="drawing" width="600"/>
 >
-> **TL;DR**&emsp; _SAM-DETR_ is an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
+> **TL;DR**&emsp; This paper presents _SAM-DETR_, an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author>
 >
@@ -32,6 +32,8 @@ venue { color: gray; font-size: 0.8em}
 >
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author>
+>
+> <venue>Tech Report, ArXiv</venue>
 
 
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**

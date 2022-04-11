@@ -5,9 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-; Note: image for each research item should be xxx.
 
 ------
+; 甚至也不会在 Html 文档中看到
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >  

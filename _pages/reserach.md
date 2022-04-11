@@ -16,14 +16,14 @@ gray { color: gray }
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
-> ![SAM-DETR](/images/SAM-DETR.jpg)
+> >  **<gray>Gongjie Zhang<gray>**<gray>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu <gray>
 >
-> <gray> **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu <gray>
+> > <img src="/images/SAM-DETR.jpg" alt="drawing" width="600"/>
+
 
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="350"/>
 >  
 > **Gongjie Zhang**, Zhipeng Luo, Kaiwen Cui, and Shijian Lu
 

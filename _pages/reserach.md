@@ -10,7 +10,9 @@ author_profile: true
 
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
+>
 > ![SAM-DETR](/images/SAM-DETR.jpg)
+>
 > **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu
 
 

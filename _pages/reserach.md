@@ -7,7 +7,8 @@ author_profile: true
 
 
 <style>
-gray { color: gray }
+firstauthor { color: gray; font-weight: bold }
+author { color: gray;}
 </style>
 
 
@@ -25,7 +26,7 @@ gray { color: gray }
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
 >  
-> **Gongjie Zhang**, Zhipeng Luo, Kaiwen Cui, and Shijian Lu
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author>
 
 
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**

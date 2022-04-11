@@ -14,25 +14,21 @@ author_profile: true
 > **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu
 
 <br/>
-
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >  
 > **Gongjie Zhang**, Zhipeng Luo, Kaiwen Cui, and Shijian Lu
 
 <br/>
-
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**
 >  
 > **Gongjie Zhang**, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu
 
 <br/>
-
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >  
 > Rongliang Wu, **Gongjie Zhang**, Shijian Lu, and Tao Chen
 
 <br/>
-
 > **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
 >  
 > **Gongjie Zhang**, Shijian Lu, and Wei Zhang

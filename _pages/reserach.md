@@ -18,9 +18,9 @@ venue { color: gray; font-size: 0.8em}
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
-> <img src="/images/SAM-DETR.jpg" alt="drawing" width="550"/>
+> <img src="/images/SAM-DETR.jpg" alt="SAM-DETR" width="600"/>
 >
-> **TL;DR**&emsp; This paper presents _SAM-DETR_, an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
+> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector, which can converge within 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu   </author>  
 >    
@@ -56,9 +56,10 @@ venue { color: gray; font-size: 0.8em}
 
 > **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
 >
-> <img src="/images/CAD-Net.jpg" alt="drawing" width="550"/>
+> <img src="/images/CAD-Net.jpg" alt="CAD-Net" width="600"/>
+>
+> **TL;DR**&emsp; One of the earliest applications of Faster R-CNN to rotated object detection in remote sensing images. The proposed CAD-Net effectively uses multi-level contextual information for robust object detection for satellite imagery.
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang</author>  
->    
 >
 > <venue>IEEE Transactions on Geoscience and Remote Sensing (T-GRS) 57, No. 12, 2019</venue>

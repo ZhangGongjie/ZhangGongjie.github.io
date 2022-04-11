@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
+; Note: image for each research item should be xxx.
 
 ------
 

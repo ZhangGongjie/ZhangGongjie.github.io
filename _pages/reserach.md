@@ -33,19 +33,19 @@ venue { color: gray; font-size: 0.8em}
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author>
 >
-> <venue>Tech Report, ArXiv</venue>
+> <venue>Tech Report, ArXiv Preprint: 2103.11731v3</venue>
 
 
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**
 >  
-> **Gongjie Zhang**, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu</author>
 
 
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >  
-> Rongliang Wu, **Gongjie Zhang**, Shijian Lu, and Tao Chen
+> <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen</author>
 
 
 > **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
 >  
-> **Gongjie Zhang**, Shijian Lu, and Wei Zhang
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang</author>

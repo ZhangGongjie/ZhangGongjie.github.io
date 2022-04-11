@@ -29,7 +29,7 @@ linespace { color: gray; font-size: 0.2em}
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
-> <img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="300" class="center"/>
+> <center><img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="380"/></center>
 >
 > <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="600"/>
 >
@@ -41,7 +41,7 @@ linespace { color: gray; font-size: 0.2em}
 >
 > <img src="/images/DefectGAN.jpg" alt="Defect-GAN" width="600"/>
 >
-> **TL;DR**&emsp; We achieve realistic and vivid facial expression editing by designing separate branches focusing on certain areas (e.g., eyes, noses), and perform the expression transformation in a cascaded manner.
+> **TL;DR**&emsp; Defect samples are usually rare and expensive to label.
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu</author><venue><br>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</venue>
 

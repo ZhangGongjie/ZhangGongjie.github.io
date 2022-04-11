@@ -23,7 +23,7 @@ venue { color: gray; font-size: 0.8em}
 > **TL;DR**&emsp; This paper presents _SAM-DETR_, an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author>
->
+> <br>
 > <venue>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022</venue>
 
 
@@ -32,7 +32,7 @@ venue { color: gray; font-size: 0.8em}
 >
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author>
->
+> <br>
 > <venue>Tech Report, ArXiv Preprint: 2103.11731v3</venue>
 
 

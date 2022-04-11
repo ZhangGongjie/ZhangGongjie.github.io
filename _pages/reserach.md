@@ -25,30 +25,32 @@ linespace { color: gray; font-size: 0.2em}
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 
-
+---
 
 > **Meta-DETR: Image-Level Few-Shot Object Detection with Inter-Class Correlation Exploitation**
 >
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author><venue><br>Tech Report, ArXiv Preprint: 2103.11731v3</venue>
 
-
+---
 
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**
+>
+> <img src="/images/DefectGAN.jpg" alt="Defect-GAN" width="600"/>
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu</author><venue><br>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</venue>
 
-
+---
 
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >
 > <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>
 >
-> **TL;DR**&emsp; We achieve realistic and vivid facial expression editing by designing separate branches on certain areas (e.g., eyes, noses), and perform the expression transformation in a cascaded manner.
+> **TL;DR**&emsp; We achieve realistic and vivid facial expression editing by designing separate branches focusing on certain areas (e.g., eyes, noses), and perform the expression transformation in a cascaded manner.
 >  
 > <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (Oral), 2020</venue>
 
-
+---
 
 > **CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery**
 >
@@ -59,3 +61,4 @@ linespace { color: gray; font-size: 0.2em}
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang</author><venue><br>IEEE Transactions on Geoscience and Remote Sensing (T-GRS), vol.57, no.12, 2019</venue>
 
 
+---

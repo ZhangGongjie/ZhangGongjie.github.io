@@ -62,4 +62,4 @@ venue { color: gray; font-size: 0.8em}
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Wei Zhang</author>&emsp;
 >
-> <venue>IEEE Transactions on Geoscience and Remote Sensing (T-GRS) 57, No. 12, 2019</venue>
+> <venue>IEEE Transactions on Geoscience and Remote Sensing (T-GRS) vol. 57, no. 12, 2019</venue>

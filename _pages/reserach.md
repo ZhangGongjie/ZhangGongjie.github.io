@@ -23,6 +23,7 @@ venue { color: gray; font-size: 0.8em}
 > **TL;DR**&emsp; _SAM-DETR_ is an efficeint DETR-like object detector, which can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author>
+>
 > <venue>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022</venue>
 
 

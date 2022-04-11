@@ -41,7 +41,7 @@ linespace { color: gray; font-size: 0.2em}
 >
 > <img src="/images/DefectGAN.jpg" alt="Defect-GAN" width="600"/>
 >
-> **TL;DR**&emsp; Defect samples are usually rare and expensive to label. This paper presents Defect-GAN to perform high-fidelity defect synthesis with many normal samples and a limited number of defect samples. We show that synthesized defect samples can be effectively leveraged to boost inspection accuracy.
+> **TL;DR**&emsp; Defect samples are usually rare and expensive to label. This paper presents Defect-GAN to perform high-fidelity defect synthesis with many normal samples and a limited number of defect samples. We show that synthesized defect samples can be effectively leveraged to boost inspection accuracy. The technique is patent-protected and is being used in real scenarios.
 >  
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu</author><venue><br>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</venue>
 

@@ -51,11 +51,11 @@ space { color: gray; font-size: 0.1em}
 > > <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>
 >  
 > <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen  </author>  
->      <space> &emsp;      </space>     
+> <space> &emsp;   </space>
 >    
 >    
 >    
->   <venue>  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020</venue>
+> <venue>  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020</venue>
 
 
 

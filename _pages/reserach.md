@@ -7,8 +7,8 @@ author_profile: true
 
 
 <style>
-firstauthor { color: gray; font-weight: bold }
-author { color: gray;}
+firstauthor { color: gray; font-weight: bold; font-size: 0.8em}
+author { color: gray; font-size: 0.8em}
 </style>
 
 

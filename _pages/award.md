@@ -8,7 +8,7 @@ author_profile: true
 
 ------
 
-* **Jun. 2018** &emsp; Outstanding Graduation Project of the School of Computer Science and Engineering, Northeastern University
+* **Jun. 2018** &emsp; Outstanding Graduation Project of the School of CSE, Northeastern University
 * **Nov. 2017** &emsp; National Scholarship of China
 * **Dec. 2016** &emsp; HUAWEI Scholarship
 * **Nov. 2015** &emsp; National Scholarship of China

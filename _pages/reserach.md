@@ -20,7 +20,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > <img src="/images/SAM-DETR.jpg" alt="SAM-DETR" width="600"/>
 >
-> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector, which can converge within 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baselines.
+> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector, which can converge within 12 epochs on MS-COCO and outperform the strong Faster R-CNN (w/ FPN) baselines.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 
@@ -32,7 +32,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="600"/>
 >
-> **TL;DR**&emsp; Meta-DETR fully bypasses the proposal quality gap between base and novel classes, thus achieving superior performance than R-CNN-based detectors. In addition, Meta-DETR performs meta-learning on a set of support classes at one go, thus effectively leveraging the inter-class correlation for better transferability.
+> **TL;DR**&emsp; Meta-DETR fully bypasses the proposal quality gap between base and novel classes, thus achieving superior performance than R-CNN-based few-shot object detectors. In addition, Meta-DETR performs meta-learning on a set of support classes at one go, thus effectively leveraging the inter-class correlation for better generalization.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, and Shijian Lu</author><venue><br>Tech Report, ArXiv preprint: 2103.11731v3</venue>
 

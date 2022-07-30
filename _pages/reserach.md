@@ -15,17 +15,6 @@ venue { color: gray; font-size: 0.8em}
 
 ------
 
-
-> **Accelerating DETR Convergence via Semantic-Aligned Matching**
->
-> <img src="/images/SAM-DETR.jpg" alt="SAM-DETR" width="600"/>
->
-> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector, which can converge within 12 epochs on MS-COCO and outperform the strong Faster R-CNN (w/ FPN) baselines.
->
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
-
----
-
 > **Meta-DETR: Image-Level Few-Shot Detection with Inter-Class Correlation Exploitation**
 >
 > <img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="600"/>
@@ -35,6 +24,16 @@ venue { color: gray; font-size: 0.8em}
 > **TL;DR**&emsp; Meta-DETR fully bypasses the proposal quality gap between base and novel classes, thus achieving superior performance than R-CNN-based few-shot object detectors. In addition, Meta-DETR performs meta-learning on a set of support classes at one go, thus effectively leveraging the inter-class correlation for better generalization.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, 2022.</venue>
+
+---
+
+> **Accelerating DETR Convergence via Semantic-Aligned Matching**
+>
+> <img src="/images/SAM-DETR.jpg" alt="SAM-DETR" width="600"/>
+>
+> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector, which can converge within 12 epochs on MS-COCO and outperform the strong Faster R-CNN (w/ FPN) baselines.
+>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 
 ---
 

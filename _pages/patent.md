@@ -18,6 +18,6 @@ author_profile: true
 > 
 > * Singapore Patent Application Number: 10202114457P (Pending for publication)
 > * China Patent Number: CN114693595A (Issued 1st July 2022)
-> * Taiwan, Penghu, Kinmen, and Matsu (Separate Customs Territory) Patent Number: 202228069 (Issued 16h July 2022)
+> * Taiwan, Penghu, Kinmen, and Matsu (Separate Customs Territory) Patent Number: 202228069 (Issued 16th July 2022)
 
 ------

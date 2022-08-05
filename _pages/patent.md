@@ -17,7 +17,7 @@ author_profile: true
 > Proprietor: Delta Electronics Int’l (Singapore) &nbsp; 台達電子國際（新加坡）
 > 
 > * Singapore Patent Application Number: 10202114457P (Pending for publication)
-> * China Patent Number: CN114693595A (Granted 1st July 2022)
-> * Taiwan, Penghu, Kinmen, and Matsu (Separate Customs Territory) Patent Number: 202228069 (Granted 16h July 2022)
+> * China Patent Number: CN114693595A (Issued 1st July 2022)
+> * Taiwan, Penghu, Kinmen, and Matsu (Separate Customs Territory) Patent Number: 202228069 (Issued 16h July 2022)
 
 ------

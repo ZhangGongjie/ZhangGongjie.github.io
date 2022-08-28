@@ -15,23 +15,43 @@ venue { color: gray; font-size: 0.8em}
 
 ------
 
+> **Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors**
+>
+> <img src="/images/IMFA.jpg" alt="IMFA" width="600"/>
+>
+> **TL;DR**&emsp; This paper presents IMFA (Iterative Multi-scale Feature Aggregation) -- the first generic paradigm to efficiently leverage multi-scale features in Transformer-based object detectors (e.g., DETR, Anchor-DETR, etc.). The core idea is to exploit sparse multi-scale features from just a few crucial locations, and it is achieved with two novel designs. First, IMFA rearranges the Transformer encoder-decoder pipeline so that the encoded features can be iteratively updated based on the detection predictions. Second, IMFA sparsely samples scale-adaptive features for refined detection from just a few keypoint locations under the guidance of prior detection predictions. As a result, the sampled multi-scale features are sparse yet still highly beneficial for object detection. Extensive experiments show that the proposed IMFA boosts the performance of multiple Transformer-based object detectors significantly yet with slight computational overhead.
+>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Zichen Tian, Jingyi Zhang, and Shijian Lu</author><venue><br>Tech Report, arXiv:2208.11356, 2022</venue>
+
+---
+
 > **Meta-DETR: Image-Level Few-Shot Detection with Inter-Class Correlation Exploitation**
 >
-> <img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="500"/>
+> <img src="/images/MetaDETR1.jpg" alt="MetaDETR1" width="550"/>
 >
-> <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="500"/>
+> <img src="/images/MetaDETR2.jpg" alt="MetaDETR2" width="550"/>
 >
 > **TL;DR**&emsp; Meta-DETR is a state-of-the-art few-shot object detector that performs image-level meta-learning-based prediction and effectively exploits the inter-class correlation to enhance generalization from old knowledge to new classes. Meta-DETR entirely bypasses the proposal quality gap between base and novel classes, thus achieving superior performance than R-CNN-based few-shot object detectors. In addition, Meta-DETR performs meta-learning on a set of support classes at one go, thus effectively leveraging the inter-class correlation for better generalization.
 >
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, 2022.</venue>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, 2022</venue>
+
+---
+
+> **Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion**
+>
+> <img src="/images/SAM-DETR++.jpg" alt="SAM-DETR++" width="600"/>
+>
+> **TL;DR**&emsp; This paper presents SAM-DETR++ -- an extension of SAM-DETR for DETR's efficient training convergence and superior detection performance. It further extends the semantics-aligned matching mechanism to fuse multi-scale features that are inherently unaligned in semantics, and achieves even faster convergence and superior detection accuracy (49.1% AP in 50 epochs with ResNet50 on COCO val2017).
+>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Jiaxing Huang, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>Tech Report, arXiv:2207.14172, 2022</venue>
 
 ---
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
 >
-> <img src="/images/SAM-DETR.jpg" alt="SAM-DETR" width="500"/>
+> <img src="/images/SAM-DETR.jpg" alt="SAM-DETR" width="600"/>
 >
-> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficeint DETR-like object detector that can converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baseline. This paper proposes the semantic-aligned matching mechanism to accelerate DETR's training convergence.
+> **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector that can converge within 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baseline on the COCO benchmark. This paper proposes the semantic-aligned matching mechanism to accelerate DETR's training convergence.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 
@@ -51,9 +71,9 @@ venue { color: gray; font-size: 0.8em}
 
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >
-> <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="500"/>
+> <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>
 >
-> **TL;DR**&emsp; We achieve realistic and vivid facial expression editing by designing separate branches focusing on certain areas (e.g., eyes, noses), and perform the expression transformation in a cascaded manner.
+> **TL;DR**&emsp; We achieve realistic and vivid facial expression editing by designing separate branches focusing on certain areas (e.g., eyes, noses, etc.), and perform the expression transformation in an iterative manner.
 >  
 > <author>Rongliang Wu, </author><firstauthor>Gongjie Zhang</firstauthor><author>, Shijian Lu, and Tao Chen</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (Oral), 2020</venue>
 

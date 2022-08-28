@@ -19,7 +19,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > <img src="/images/IMFA.jpg" alt="IMFA" width="500"/>
 >
-> **TL;DR**&emsp; This paper presents IMFA (Iterative Multi-scale Feature Aggregation) -- the first generic paradigm to efficiently leverage multi-scale features in Transformer-based object detectors (e.g., DETR, Anchor-DETR, etc.). The core idea is to exploit sparse multi-scale features from just a few crucial locations guided by prior detection predictions. IMFA only samples multi-scale features from a few crucial keypoints within a few promising regions. We demonstrate on multiple detectors that even extremely sparse multi-scale features are still highly beneficial to detection accuracy, at small computational overheads.
+> **TL;DR**&emsp; This paper presents IMFA (Iterative Multi-scale Feature Aggregation) -- the first generic paradigm to efficiently leverage multi-scale features in Transformer-based object detectors (e.g., DETR, Anchor-DETR, etc.). For efficiency, IMFA only samples multi-scale features from a few crucial keypoints within a few promising regions. We demonstrate on multiple detectors that even such extremely sparse multi-scale features are still highly beneficial to detection accuracy at small computational overheads.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Zichen Tian, Jingyi Zhang, and Shijian Lu</author><venue><br>Tech Report, arXiv:2208.11356, 2022</venue>
 

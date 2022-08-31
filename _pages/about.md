@@ -11,7 +11,7 @@ redirect_from:
 Welcome to Gongjie Zhang's homepage!
 ======
 
-<span style="color:red">__[News]__ I have submitted my Ph.D thesis and am actively looking for job oppotunities across the world. I am willing to relocate for excellent job oppotunities. Please feel free to contact me via GongjieZhang@ntu.edu.sg or my LinkedIn page.</span>
+<span style="color:red">__[News]__ I have submitted my Ph.D. thesis and am actively looking for job opportunities across the world. I am willing to relocate for excellent job opportunities. Please feel free to contact me via GongjieZhang@ntu.edu.sg or [my LinkedIn page](https://www.linkedin.com/in/gongjie-z-25538216a).</span>
 
 Biography
 ------

@@ -11,7 +11,7 @@ redirect_from:
 Welcome to Gongjie Zhang's homepage!
 ======
 
-<span style="color:red">__[News]__ I have submitted my Ph.D. thesis and am actively looking for job opportunities across the world. I am willing to relocate for excellent job opportunities. Please feel free to contact me via GongjieZhang@ntu.edu.sg or [my LinkedIn page](https://www.linkedin.com/in/gongjiiezhang).</span>
+<span style="color:red">__[Pinned Message]__ I have submitted my Ph.D. thesis and am actively looking for job opportunities across the world. I am willing to relocate for excellent job opportunities. Please feel free to contact me via GongjieZhang@ntu.edu.sg or [my LinkedIn](https://www.linkedin.com/in/gongjiiezhang). I am eligible for the _High Potential Individual (HPI) Visa_ in UK, and have priority for employment pass in Singapore.</span>
 
 Biography
 ------

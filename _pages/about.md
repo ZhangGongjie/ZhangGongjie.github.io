@@ -11,6 +11,8 @@ redirect_from:
 Welcome to Gongjie Zhang's homepage!
 ======
 
+<span style="color:red">__[News] I am actively looking for global job oppotunities. Willing to relocate for excellent job oppotunities. Please contact me via GongjieZhang@ntu.edu.sg or my LinkedIn page.__</span>.
+
 Biography
 ------
 Gongjie Zhang is a final-year Ph.D. candidate in computer science at Nanyang Technological University (NTU), Singapore, under the supervision of Prof. Shijian Lu. Before that, he received his B.Eng. degree in Electronics and Information Engineering from Northeastern University, China, in Jun 2018.

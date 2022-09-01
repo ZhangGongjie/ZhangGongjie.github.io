@@ -11,7 +11,7 @@ author_profile: true
 See also: [my Google Scholar page](https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en).
 
 ------
-* Zhipeng Luo, **Gongjie Zhang**, Changqing Zhou, Tianrui Liu, Shijian Lu, and Liang Pan. "TransPillars: Coarse-to-Fine Aggregation for Multi-Frame 3D Object Detection." In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2023. [\[paper\]](https://arxiv.org/abs/2208.03141)
+* Zhipeng Luo, **Gongjie Zhang**, Changqing Zhou, Tianrui Liu, Shijian Lu, and Liang Pan. "TransPillars: Coarse-to-Fine Aggregation for Multi-Frame 3D Object Detection." In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2023. [\[paper\]](https://arxiv.org/abs/2208.03141) [\[code\]](https://github.com/Jasonkks/PTTR)
 * **Gongjie Zhang**, Zhipeng Luo, Yingchen Yu, Zichen Tian, Jingyi Zhang, and Shijian Lu. "Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors." arXiv preprint arXiv:2208.11356 (2022). [\[paper\]](https://arxiv.org/abs/2208.11356) [\[code\]](https://github.com/ZhangGongjie/IMFA)
 * **Gongjie Zhang**, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing. "Meta-DETR: Image-Level Few-Shot Detection with Inter-Class Correlation Exploitation." IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, (2022). [\[paper\]](https://arxiv.org/abs/2208.00219) [\[code\]](https://github.com/ZhangGongjie/Meta-DETR)
 * Zhipeng Luo, Zhipeng Luo, Changqing Zhou, Liang Pan, **Gongjie Zhang**, Tianrui Liu, Yueru Luo, Haiyu Zhao, Ziwei Liu, and Shijian Lu. "Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer." arXiv preprint arXiv:2208.05216 (2022). [\[paper\]](https://arxiv.org/abs/2208.05216)

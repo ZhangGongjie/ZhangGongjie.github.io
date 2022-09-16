@@ -69,6 +69,16 @@ venue { color: gray; font-size: 0.8em}
 
 ---
 
+> **PNPDet: Efficient Few-Shot Detection Without Forgetting via Plug-and-Play Sub-Networks**
+>
+> <img src="/images/PNPDet.jpg" alt="PNPDet" width="500"/>
+>
+> **TL;DR**&emsp; This paper presents a fine-tuning-based few-shot object detector that learns new concepts without forgetting learned visual concepts via weight normalized sub-networks.
+>  
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Kaiwen Cui, Rongliang Wu, Shijian Lu, and Yonghong Tian</author><venue><br>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</venue>
+
+---
+
 > **Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses**
 >
 > <img src="/images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" width="600"/>

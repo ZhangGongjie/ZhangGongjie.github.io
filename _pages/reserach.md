@@ -34,6 +34,8 @@ venue { color: gray; font-size: 0.8em}
 > **TL;DR**&emsp; Meta-DETR is a state-of-the-art few-shot object detector that performs image-level meta-learning-based prediction and effectively exploits the inter-class correlation to enhance generalization from old knowledge to new classes. Meta-DETR entirely bypasses the proposal quality gap between base and novel classes, thus achieving superior performance than R-CNN-based few-shot object detectors. In addition, Meta-DETR performs meta-learning on a set of support classes at one go, thus effectively leveraging the inter-class correlation for better generalization.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, 2022</venue>
+>
+> <venue><br>[\[Blog(By others)\]](https://towardsdatascience.com/review-on-few-shot-object-detection-185965e0e6a2)  [\[中文解读\]](https://cloud.tencent.com/developer/article/1821518)</venue>
 
 ---
 
@@ -45,6 +47,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Jiaxing Huang, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>Tech Report, arXiv:2207.14172, 2022</venue>
 
+
 ---
 
 > **Accelerating DETR Convergence via Semantic-Aligned Matching**
@@ -54,6 +57,8 @@ venue { color: gray; font-size: 0.8em}
 > **TL;DR**&emsp; This paper presents SAM-DETR -- an efficient DETR-like object detector that can converge within 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baseline on the COCO benchmark. This paper proposes the semantic-aligned matching mechanism to accelerate DETR's training convergence.
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
+>
+> <venue><br>[\[中文论文解读\]](https://zhuanlan.zhihu.com/p/489839282)  [\[中文代码解读（转）\]](https://blog.csdn.net/weixin_43702653/article/details/126404646)</venue>
 
 ---
 

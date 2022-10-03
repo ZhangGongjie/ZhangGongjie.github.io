@@ -35,7 +35,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, 2022</venue>
 >
-> <venue><br>[\[Blog(By others)\]](https://towardsdatascience.com/review-on-few-shot-object-detection-185965e0e6a2)  [\[中文解读\]](https://cloud.tencent.com/developer/article/1821518)</venue>
+> [\[Blog(By others)\]](https://towardsdatascience.com/review-on-few-shot-object-detection-185965e0e6a2)  [\[中文解读\]](https://cloud.tencent.com/developer/article/1821518)
 
 ---
 
@@ -58,7 +58,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 >
-> <venue><br>[\[中文论文解读\]](https://zhuanlan.zhihu.com/p/489839282)  [\[中文代码解读（转）\]](https://blog.csdn.net/weixin_43702653/article/details/126404646)</venue>
+> [\[中文论文解读\]](https://zhuanlan.zhihu.com/p/489839282)  [\[中文代码解读（转）\]](https://blog.csdn.net/weixin_43702653/article/details/126404646)
 
 ---
 

@@ -22,6 +22,7 @@ author_profile: true
 
 * IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 * IEEE Transactions on Image Processing (T-IP)
+* IEEE Transactions on Neural Networks and Learning Systems (T-NNLS)
 * Neurocomputing
 
 

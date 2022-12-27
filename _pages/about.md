@@ -11,7 +11,7 @@ redirect_from:
 Welcome to Gongjie Zhang's homepage!
 ======
 
-<span style="color:red">__[Pinned Message]__ I have submitted my Ph.D. thesis and am actively looking for job opportunities across the world. I am willing to relocate for excellent job opportunities. Please feel free to contact me via GongjieZhang@ntu.edu.sg or [my LinkedIn](https://www.linkedin.com/in/gongjiiezhang). I am eligible for the _High Potential Individual (HPI) Visa_ in UK, and have priority for employment pass in Singapore.</span>
+<span style="color:red">__[Pinned Message]__ My previous email GongjieZhang@ntu.edu.sg has expired.</span>
 
 Biography
 ------
@@ -22,6 +22,6 @@ His research interests include computer vision and machine learning, with a focu
 
 Contact
 ------
-**Email:** GongjieZhang@ntu.edu.sg
+**Email:** GJZ AT ieee DOT org
 
 **Office:** S-Lab for Advanced Intelligence, Academic Block North, Nanyang Technological University, 61 Nanyang Dr, Singapore 637335

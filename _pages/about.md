@@ -15,13 +15,13 @@ Welcome to Gongjie Zhang's homepage!
 
 Biography
 ------
-Gongjie Zhang is a final-year Ph.D. candidate in computer science at Nanyang Technological University (NTU), Singapore, under the supervision of Prof. Shijian Lu. Before that, he received his B.Eng. degree in Electronics and Information Engineering from Northeastern University, China, in Jun 2018.
+Gongjie Zhang is a research scientist in Black Sesame Technologies (Singapore). Prior to that, he was fortunate to work under the supervision of Prof. Shijian Lu for his Ph.D. at Nanyang Technological University (NTU), from 2018 to 2022. Before that, he received his B.Eng. degree in Electronics and Information Engineering from Northeastern University, China, in Jun 2018.
 
-His research interests include computer vision and machine learning, with a focus on object detection. He also had research experience with generative models. Recently, he has been particularly interested in (few-shot) object detection with vision Transformers as well as multi-modal pre-training.
+His research interests include computer vision and machine learning, with a focus on autonomous driving perception, including 3D object detection / tracking, 3D lane detection, occupancy networks, path prediction, etc.
 
 
 Contact
 ------
-**Email:** GJZ AT ieee DOT org
+**Email:** gjz [at] ieee.org
 
-**Office:** S-Lab for Advanced Intelligence, Academic Block North, Nanyang Technological University, 61 Nanyang Dr, Singapore 637335
+**Office:** 01 Fusionopolis Walk, #04-05/06 South Tower, Solaris, Singapore 138628

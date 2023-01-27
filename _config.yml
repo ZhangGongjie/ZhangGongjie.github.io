@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Gongjie Zhang 张功杰"
   avatar           : "Gongjie_Bio_Photo.jpg"
-  bio              : "Computer Vision Researcher"
-  location         : "Singapore"
-  employer         : "NTU"
+  bio              : "Computer Vision Research Scientist"
+  location         : "Black Sesame Tech."
+  employer         : "Singapore"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en"
-  email            : "GongjieZhang@ntu.edu.sg"
+  email            : "gjz@ieee.org"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

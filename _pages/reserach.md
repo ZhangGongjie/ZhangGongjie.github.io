@@ -33,7 +33,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > **TL;DR**&emsp; Meta-DETR is a state-of-the-art few-shot object detector that performs image-level meta-learning-based prediction and effectively exploits the inter-class correlation to enhance generalization from old knowledge to new classes. Meta-DETR entirely bypasses the proposal quality gap between base and novel classes, thus achieving superior performance than R-CNN-based few-shot object detectors. In addition, Meta-DETR performs meta-learning on a set of support classes at one go, thus effectively leveraging the inter-class correlation for better generalization.
 >
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), In Press, 2022</venue>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2022</venue>
 >
 > [\[Blog(By others)\]](https://towardsdatascience.com/review-on-few-shot-object-detection-185965e0e6a2)  [\[中文解读\]](https://cloud.tencent.com/developer/article/1821518)
 

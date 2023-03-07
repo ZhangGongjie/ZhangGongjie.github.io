@@ -16,9 +16,9 @@ Welcome to Gongjie Zhang's homepage!
 
 Biography
 ------
-Dr. Gongjie Zhang is a research scientist in Black Sesame Technologies (Singapore). Prior to that, he was fortunate to work under the supervision of Prof. Shijian Lu for his Ph.D. at Nanyang Technological University (NTU), Singapore, from 2018 to 2022. Before that, he received his B.Eng. degree from Northeastern University, China, in Jun 2018.
+Dr. Gongjie Zhang is a research scientist with Black Sesame Technologies (Singapore). Prior to that, he was fortunate to work under the supervision of Prof. Shijian Lu for his Ph.D. at Nanyang Technological University (NTU), Singapore, from 2018 to 2022. Before that, he received his B.Eng. degree from Northeastern University, China, in Jun 2018.
 
-His research interests include computer vision and machine learning, with a focus on autonomous driving perception, including BEV perception, 3D object detection/tracking, 3D lane detection, map vectorization, occupancy networks, path prediction, etc.
+His research interests include computer vision and machine learning, with a focus on autonomous driving perception, including BEV perception, 3D object detection/tracking, 3D lane detection, map vectorization, etc.
 
 
 Contact

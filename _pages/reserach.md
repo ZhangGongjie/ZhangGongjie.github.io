@@ -21,7 +21,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > **TL;DR**&emsp; This paper presents IMFA (Iterative Multi-scale Feature Aggregation) -- the first generic paradigm to efficiently leverage multi-scale features in Transformer-based object detectors (e.g., DETR, Anchor-DETR, etc.). For efficiency, IMFA only samples multi-scale features from a few crucial keypoints within a few promising regions. We demonstrate on multiple detectors that even such extremely sparse multi-scale features are still highly beneficial to detection accuracy at small computational overheads.
 >
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Zichen Tian, Jingyi Zhang, and Shijian Lu</author><venue><br>Tech Report, arXiv:2208.11356, 2022</venue>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Zichen Tian, Jingyi Zhang, Xiaoqin Zhang, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</venue>
 
 ---
 
@@ -45,7 +45,7 @@ venue { color: gray; font-size: 0.8em}
 >
 > **TL;DR**&emsp; This paper presents SAM-DETR++, which is an extension of SAM-DETR. It further extends the semantics-aligned matching mechanism to fuse multi-scale features that are inherently unaligned in semantics, and achieves even faster convergence and superior detection accuracy (49.1% AP in 50 epochs with ResNet50 on COCO val2017).
 >
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Jiaxing Huang, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>Tech Report, arXiv:2207.14172, 2022</venue>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing</author><venue><br>Tech Report, arXiv:2207.14172, 2022</venue>
 
 
 ---

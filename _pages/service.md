@@ -10,12 +10,17 @@ author_profile: true
 
 ### Conference Reviewer
 
-* CVPR 2021, 2023
+* CVPR 2021, 2023, 2024
 * ICCV 2021, 2023
 * ACM MM 2022
-* WACV 2021
+* WACV 2021, 2024
 * BMVC 2022
 
+
+### Conference Program Committee Member
+
+* AAAI 2024
+* CVPR 2024 Workshop on Neural Rendering Intelligence
 
 
 ### Journal External Reviewer

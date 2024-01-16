@@ -15,6 +15,18 @@ venue { color: gray; font-size: 0.8em}
 
 ------
 
+> **Online Map Vectorization for Autonomous Driving: A Rasterization Perspective**
+>
+> <img src="/images/MapVR1.jpg" alt="MapVR1" width="600"/>
+>
+> <img src="/images/MapVR2.jpg" alt="MapVR2" width="600"/>
+>
+> **TL;DR**&emsp; Rasterization can offer complementary benefits to map vectorization. Motivated by this, we propose (i) MapVR, a precise map vectorization framework bridging map rasterization and map vectorization, and (ii) a highly sensitive rasterization-based metric for map vectorization.
+>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Jiahao Lin, Shuang Wu, Yilin Song, Zhipeng Luo, Yang Xue, Shijian Lu, and Zuoguan Wang</author><venue><br>The Thirty-seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023</venue>
+
+---
+
 > **Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors**
 >
 > <img src="/images/IMFA.jpg" alt="IMFA" width="500"/>
@@ -43,9 +55,9 @@ venue { color: gray; font-size: 0.8em}
 >
 > <img src="/images/SAM-DETR++.jpg" alt="SAM-DETR++" width="500"/>
 >
-> **TL;DR**&emsp; This paper presents SAM-DETR++, which is an extension of SAM-DETR. It further extends the semantics-aligned matching mechanism to fuse multi-scale features that are inherently unaligned in semantics, and achieves even faster convergence and superior detection accuracy (49.1% AP in 50 epochs with ResNet50 on COCO val2017).
+> **TL;DR**&emsp; This paper presents SAM-DETR++, which is an extension of SAM-DETR. It further extends the semantics-aligned matching mechanism to fuse multi-scale features that are inherently unaligned in semantics, and achieves even faster convergence and superior detection accuracy.
 >
-> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing</author><venue><br>Tech Report, arXiv:2207.14172, 2022</venue>
+> <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing</author><venue><br>International Journal of Computer Vision (IJCV), 2024</venue>
 
 
 ---

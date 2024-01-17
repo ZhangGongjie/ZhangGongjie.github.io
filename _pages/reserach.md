@@ -17,9 +17,9 @@ venue { color: gray; font-size: 0.8em}
 
 > **Online Map Vectorization for Autonomous Driving: A Rasterization Perspective**
 >
-> <img src="/images/MapVR1.jpg" alt="MapVR1" width="600"/>
+> <img src="/images/MapVR1.jpg" alt="MapVR1" width="500"/>
 >
-> <img src="/images/MapVR2.jpg" alt="MapVR2" width="600"/>
+> <img src="/images/MapVR2.jpg" alt="MapVR2" width="500"/>
 >
 > **TL;DR**&emsp; Rasterization can offer complementary benefits to map vectorization. Motivated by this, we propose (i) MapVR, a precise map vectorization framework bridging map rasterization and map vectorization, and (ii) a highly sensitive rasterization-based metric for map vectorization.
 >

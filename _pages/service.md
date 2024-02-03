@@ -12,9 +12,11 @@ author_profile: true
 
 * CVPR 2021, 2023, 2024
 * ICCV 2021, 2023
+* ECCV 2024
 * ACM MM 2022
 * WACV 2021, 2024
 * BMVC 2022
+* CAI 2024
 
 
 ### Conference Program Committee Member

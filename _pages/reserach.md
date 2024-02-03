@@ -17,9 +17,9 @@ venue { color: gray; font-size: 0.8em}
 
 > **Online Map Vectorization for Autonomous Driving: A Rasterization Perspective**
 >
-> <img src="/images/MapVR1.jpg" alt="MapVR1" width="500"/>
+> <img src="/images/MapVR1.jpg" alt="MapVR1" width="512"/>
 >
-> <img src="/images/MapVR2.jpg" alt="MapVR2" width="500"/>
+> <img src="/images/MapVR2.jpg" alt="MapVR2" width="512"/>
 >
 > **TL;DR**&emsp; Rasterization can offer complementary benefits to map vectorization. Motivated by this, we propose (i) MapVR, a precise map vectorization framework bridging map rasterization and map vectorization, and (ii) a highly sensitive rasterization-based metric for map vectorization.
 >
@@ -29,7 +29,7 @@ venue { color: gray; font-size: 0.8em}
 
 > **Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors**
 >
-> <img src="/images/IMFA.jpg" alt="IMFA" width="500"/>
+> <img src="/images/IMFA.jpg" alt="IMFA" width="512"/>
 >
 > **TL;DR**&emsp; This paper presents IMFA (Iterative Multi-scale Feature Aggregation) -- the first generic paradigm to efficiently leverage multi-scale features in Transformer-based object detectors (e.g., DETR, Anchor-DETR, etc.). For efficiency, IMFA only samples multi-scale features from a few crucial keypoints within a few promising regions. We demonstrate on multiple detectors that even such extremely sparse multi-scale features are still highly beneficial to detection accuracy at small computational overheads.
 >

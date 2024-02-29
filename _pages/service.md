@@ -1,7 +1,7 @@
 ---
 permalink: /service/
 title: "Academic Service"
-excerpt: "Academicgit  Service"
+excerpt: "Academic  Service"
 author_profile: true
 ---
 

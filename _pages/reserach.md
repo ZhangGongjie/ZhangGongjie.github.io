@@ -48,6 +48,9 @@ venue { color: gray; font-size: 0.8em}
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing</author><venue><br>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2022</venue>
 >
 > [\[Blog(By others)\]](https://towardsdatascience.com/review-on-few-shot-object-detection-185965e0e6a2)  [\[中文解读\]](https://cloud.tencent.com/developer/article/1821518)
+>
+> NOTE: Meta-DETR first appeared as a tech report on arXiv.org [\[1st version\]](/files/2103.11731v2.pdf) [\[2nd version\]](/files/2103.11731v3.pdf). Since its release, we have made substantial improvements to the original versions. We recommend reading [the final published version accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI) in 2022](https://doi.org/10.1109/TPAMI.2022.3195735).
+
 
 ---
 
@@ -71,8 +74,7 @@ venue { color: gray; font-size: 0.8em}
 > <firstauthor>Gongjie Zhang</firstauthor><author>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu</author><venue><br>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</venue>
 >
 > [\[中文论文解读\]](https://zhuanlan.zhihu.com/p/489839282)  [\[中文代码解读（转）\]](https://blog.csdn.net/weixin_43702653/article/details/126404646)
->
-> **NOTE:**  SS
+
 ---
 
 > **Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**

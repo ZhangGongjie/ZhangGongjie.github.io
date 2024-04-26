@@ -31,6 +31,7 @@ Contact
 
 <span class="small-text" style="color:gray; font-size:small;">
 Disclaimer:
-The views expressed on this website are solely my own and do not reflect the views of my employer or any other organization with which I am affiliated. All information provided here does not constitute professional advice.
+The views expressed on this website are solely my own and do not reflect the views of my employer or any other organization with which I am affiliated. All information provided here does not constitute professional advice.</span>
 
-_Last Update: 26 April 2024_</span>
+<span class="small-text" style="color:gray; font-size:small;">
+Last Update: 26 April 2024</span>

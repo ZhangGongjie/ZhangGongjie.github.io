@@ -16,6 +16,7 @@ author_profile: true
 * ACM MM 2022
 * WACV 2021, 2024
 * BMVC 2022
+* ICPR 2024
 * CAI 2024
 
 
@@ -31,7 +32,9 @@ author_profile: true
 * IEEE Transactions on Image Processing (T-IP)
 * IEEE Transactions on Neural Networks and Learning Systems (T-NNLS)
 * IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT)
+* IEEE Robotics and Automation Letters (RA-L)
 * Neurocomputing
+* The Journal of Supercomputing
 
 
 

@@ -26,3 +26,11 @@ Contact
 **Email:** gjz [at] ieee [dot] org
 
 **Office:** 01 Fusionopolis Walk, #04-05/06 South Tower, Solaris. Singapore 138628
+
+------
+
+<span class="small-text" style="color:gray; font-size:small;">
+Disclaimer:
+The views expressed on this website are solely my own and do not reflect the views of my employer or any other organization with which I am affiliated. All information provided here does not constitute professional advice.
+
+_Last Update: 26 April 2024_</span>

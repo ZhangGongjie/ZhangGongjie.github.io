@@ -16,7 +16,7 @@ Welcome to Gongjie Zhang's homepage!
 
 Biography
 ------
-Dr. Gongjie Zhang is an AI research scientist with DAMO Academy, Alibaba Group. He obtained his Ph.D. degree from Nanyang Technological University (NTU), Singapore, in 2022, under the supervision of Prof. Shijian Lu. Before that, he received his B.Eng. degree from Northeastern University, China, in Jun 2018.
+Dr. Gongjie Zhang is an AI research scientist with DAMO Academy, Alibaba Group. He obtained his Ph.D. degree from Nanyang Technological University (NTU), Singapore, under the supervision of Prof. Shijian Lu. Before that, he received his B.Eng. degree from Northeastern University, China.
 
 His research interests include humanoid robots and embodied AI, with a focus on the enhancement of _multi-modal large language model (MLLM)_ to accurately perceive and predict in open 3D environments.
 

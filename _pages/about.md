@@ -18,11 +18,11 @@ Biography
 ------
 Dr. Gongjie Zhang is an AI research scientist with DAMO Academy, Alibaba Group. He obtained his Ph.D. degree from Nanyang Technological University (NTU), Singapore, under the supervision of Prof. Shijian Lu. Before that, he received his B.Eng. degree from Northeastern University, China.
 
-His research interests include humanoid robots and embodied AI, with a focus on the enhancement of _multi-modal large language model (MLLM)_ to accurately perceive and predict in open 3D environments.
+Gongjie believes AI will eventually enter and coexist with humans in the physical world. His research focuses on humanoid robots and embodied AI, with particular emphasis on enhancing _multi-modal large language models (MLLMs)_ to accurately perceive and predict in open 3D environments. He is passionate about developing scalable approaches that enable AI systems to understand 3D physical worlds and learn human actions, fostering more natural human-AI interaction in real-world scenarios.
 
 
 <div style="text-align: left; margin: 20px 0;">
-  <img src="/images/me_playing_robots.jpg" alt="Gongjie playing with robots" style="width: 600px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/images/me_playing_robots.jpg" alt="Gongjie playing with robot" style="width: 450px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 

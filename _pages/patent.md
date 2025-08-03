@@ -14,10 +14,29 @@ author_profile: true
 >
 > Inventors: **Gongjie Zhang**, Kaiwen Cui, Shijian Lu and Tzuyi Hung. 
 >  
-> Proprietor: Delta Electronics Int’l (Singapore) &nbsp; 台達電子國際（新加坡）
+> Proprietor: Delta Electronics Int'l (Singapore) &nbsp; 台達電子國際（新加坡）
 > 
-> * Singapore Patent Application Number: 10202114457P (Pending for publication)
-> * China Patent Number: CN114693595A (Issued 1st July 2022)
+> * Singapore Patent Number: 10202114457P (Issued August 2022)
+> * China Patent Number: CN114693595A (Issued July 2022)
 > * Taiwan, Penghu, Kinmen, and Matsu (Separate Customs Territory) Patent Number: 202228069 (Issued 16th July 2022)
+
+------
+
+> **System and Method for Map Vectorization in Advanced Driving Assistance System**
+>
+> Inventors: **Gongjie Zhang**, et al.
+> Proprietor: Black Sesame Technologies
+
+>  
+> * U.S. Patent pending (Provisional case granted in the U.S.)
+
+------
+
+> **一种用于空间智能的 2D 到 3D 场景数据生成方法 (Method for Generating 3D Scene Data from 2D Images for Spatial Intelligence)**
+>
+> Inventors: **Gongjie Zhang**, et al.
+> Proprietor: Alibaba Group
+>  
+> * China Patent under review
 
 ------

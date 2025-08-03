@@ -22,6 +22,8 @@ venue { color: gray; font-size: 0.8em}
 >   Your browser does not support the video tag.
 > </video>
 >
+> <img src="https://zhanggongjie.github.io/TowardsSSI-page/static/images/pipline.jpg" alt="TowardsSSI_pipeline" width="512"/>
+>
 > **TL;DR**&emsp; We propose a scalable 2D→3D lifting pipeline that converts single-view images into scale-calibrated 3D (depth, camera poses, point clouds, pseudo-RGBD), releasing COCO-3D and Objects365-v2-3D datasets. Pretraining on these data boosts 3D perception, enables zero-shot 3D segmentation, and strengthens 3D vision-language/MLLM spatial reasoning—greatly reducing reliance on costly sensor-collected 3D data. Our work shows a promising way towards scalable spatial intelligence and embodied AI.
 >
 > <author>Xingyu Miao, Haoran Duan, Quanhao Qian, Jiuniu Wang, Yang Long, Ling Shao, Deli Zhao, Ran Xu, and </author><firstauthor>Gongjie Zhang</firstauthor><author> ✉</author><venue><br>IEEE/CVF International Conference on Computer Vision (ICCV), 2025 (Highlight)</venue>

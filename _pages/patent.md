@@ -26,7 +26,6 @@ author_profile: true
 >
 > Inventors: **Gongjie Zhang**, et al.
 > Proprietor: Black Sesame Technologies
-
 >  
 > * U.S. Patent pending (Provisional case granted in the U.S.)
 

@@ -12,13 +12,17 @@ See also: [my Google Scholar page](https://scholar.google.com/citations?user=sRB
 
 ------
 
+### 2025
+
+* Xingyu Miao, Haoran Duan, Quanhao Qian, Jiuniu Wang, Yang Long, Ling Shao, Deli Zhao, Ran Xu, and **Gongjie Zhang**. "Towards Scalable Spatial Intelligence via 2D-to-3D Data Lifting." In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV). 2025. (Highlight) [\[paper\]](https://www.arxiv.org/abs/2507.18678) [\[code\]](https://zhanggongjie.github.io/TowardsSSI-page/) [\[data\]](https://zhanggongjie.github.io/TowardsSSI-page/)
+
 
 ### 2024
 
-* **Gongjie Zhang**, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing. "Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion." International Journal of Computer Vision (IJCV), _in press_, (2024). [\[paper\]](https://arxiv.org/abs/2207.14172) [\[code\]](https://github.com/ZhangGongjie/SAM-DETR)
+* **Gongjie Zhang**, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing. "Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion." International Journal of Computer Vision (IJCV), vol. 132, pages 2825–2844, (2024). [\[paper\]](https://arxiv.org/abs/2207.14172) [\[code\]](https://github.com/ZhangGongjie/SAM-DETR)
 * Zhipeng Luo, **Gongjie Zhang**, Changqing Zhou, Zhonghua Wu, Qingyi Tao, Lewei Lu, and Shijian Lu, “Modeling Continuous Motion for 3D Point Cloud Object Tracking.” In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI). 2024. [\[paper\]](https://arxiv.org/pdf/2303.07605.pdf)
 * Qiu Han, **Gongjie Zhang**, Jiaxing Huang, Peng Gao, Zhang Wei, and Shijian Lu, "Efficient MAE Towards Large-Scale Vision Transformers." In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2024. [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/papers/Han_Efficient_MAE_Towards_Large-Scale_Vision_Transformers_WACV_2024_paper.pdf)
-* Zhipeng Luo, Changqing Zhou, Liang Pan, **Gongjie Zhang**, Tianrui Liu, Yueru Luo, Haiyu Zhao, Ziwei Liu, and Shijian Lu. "Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer." IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), _in press_, (2024).  [\[paper\]](https://arxiv.org/abs/2208.05216) [\[code\]](https://github.com/Jasonkks/PTTR)
+* Zhipeng Luo, Changqing Zhou, Liang Pan, **Gongjie Zhang**, Tianrui Liu, Yueru Luo, Haiyu Zhao, Ziwei Liu, and Shijian Lu. "Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer." IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), vol.46, no.9, pp.5921-5935,, (2024).  [\[paper\]](https://arxiv.org/abs/2208.05216) [\[code\]](https://github.com/Jasonkks/PTTR)
 * Jiahao Nie, Yun Xing, **Gongjie Zhang**, Pei Yan, Aoran Xiao, Yap-Peng Tan, Alex C Kot, and Shijian Lu. "Cross-Domain Few-Shot Segmentation via Iterative Support-Query Correspondence Mining." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2024. [\[paper\]](https://arxiv.org/abs/2401.08407)
 
 

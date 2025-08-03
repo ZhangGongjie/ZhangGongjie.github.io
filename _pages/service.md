@@ -10,9 +10,10 @@ author_profile: true
 
 ### Conference Reviewer
 
-* CVPR 2021, 2023, 2024
-* ICCV 2021, 2023
+* CVPR 2021, 2023, 2024, 2025
+* ICCV 2021, 2023, 2025
 * ECCV 2024
+* NeurIPS 2025
 * ACM MM 2022
 * WACV 2021, 2024
 * BMVC 2022
@@ -22,7 +23,7 @@ author_profile: true
 
 ### Conference Program Committee Member
 
-* AAAI 2024
+* AAAI 2024, 2025, 2026
 * CVPR 2024 Workshop on Neural Rendering Intelligence
 
 
@@ -32,7 +33,9 @@ author_profile: true
 * IEEE Transactions on Image Processing (T-IP)
 * IEEE Transactions on Neural Networks and Learning Systems (T-NNLS)
 * IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT)
+* IEEE Transactions on Multimedia (T-MM)
 * IEEE Robotics and Automation Letters (RA-L)
+* IEEE Vehicular Technology Magazine
 * Neurocomputing
 * The Journal of Supercomputing
 

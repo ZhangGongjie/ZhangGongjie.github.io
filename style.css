@@ -466,7 +466,7 @@ img { max-width: 100%; height: auto; }
   font-family: var(--font-mono);
   letter-spacing: .08em;
   text-transform: uppercase;
-  margin: 2.5rem 0 .6rem;
+  margin: 4rem 0 .6rem; /* Increased top margin to add more space */
   display: flex;
   align-items: center;
   gap: .75rem;
@@ -582,8 +582,11 @@ img { max-width: 100%; height: auto; }
 /* ============================================================
    RESPONSIVE
    ============================================================ */
-@media (max-width: 860px) {
-  .site-wrapper { flex-direction: column; }
+@media (max-width: 1024px) {
+  .site-wrapper {
+    max-width: 100%;
+    flex-direction: column;
+  }
   .sidebar {
     width: 100%;
     min-width: 100%;
@@ -618,10 +621,403 @@ img { max-width: 100%; height: auto; }
   }
 }
 
+@media (max-width: 768px) {
+  .site-wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
+    padding: 1.25rem 1rem;
+    gap: .75rem;
+  }
+  .avatar-wrap { width: 80px; height: 80px; }
+  .sidebar h1 { font-size: 1rem; }
+  .sidebar .subtitle { font-size: .75rem; }
+  .sidebar .affiliation { font-size: .72rem; }
+  .sidebar-links a, .sidebar-nav a {
+    padding: .3rem .5rem;
+    font-size: .75rem;
+    gap: .4rem;
+  }
+  .sidebar-links svg, .sidebar-nav .nav-icon {
+    width: 14px;
+    height: 14px;
+  }
+  .main {
+    padding: 1.25rem 1rem;
+  }
+  .page-header h2 {
+    font-size: 1.5rem;
+    padding-bottom: .75rem;
+  }
+  .bio-text {
+    font-size: .88rem;
+  }
+  .card {
+    padding: 1.25rem;
+  }
+  .card-title {
+    font-size: .9rem;
+  }
+  .card-meta {
+    font-size: .75rem;
+  }
+  .card-body {
+    font-size: .84rem;
+  }
+  .pub-entry {
+    font-size: .8rem;
+  }
+  .year-heading {
+    font-size: .75rem;
+  }
+  .award-list li, .service-list li {
+    font-size: .82rem;
+    padding: .45rem 0 .45rem 1.3rem;
+  }
+  .patent-block {
+    padding: 1rem 1.25rem;
+  }
+  .patent-block h4 {
+    font-size: .84rem;
+  }
+  .patent-block p {
+    font-size: .76rem;
+  }
+  .contact-line {
+    font-size: .84rem;
+  }
+
+  /* Improve card layout on small screens */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+  }
+
+  /* Better spacing for card images on mobile */
+  .card-img, .research-video {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 480px) {
-  .main { padding: 1rem; }
-  .card { padding: 1rem; }
-  .page-header h2 { font-size: 1.4rem; }
+  .sidebar {
+    padding: 1rem .75rem;
+    gap: .5rem;
+  }
+  .avatar-wrap { width: 70px; height: 70px; }
+  .sidebar h1 { font-size: .95rem; }
+  .sidebar .subtitle { font-size: .7rem; }
+  .sidebar .affiliation { font-size: .68rem; }
+  .sidebar-links a, .sidebar-nav a {
+    padding: .25rem .4rem;
+    font-size: .7rem;
+    gap: .3rem;
+  }
+  .main {
+    padding: 1rem .75rem;
+  }
+  .page-header h2 { font-size: 1.3rem; }
+  .page-header h2::after { width: 40px; }
+  .main h3 {
+    font-size: 1rem;
+    margin: 2rem 0 .8rem;
+  }
+  .main h3::before { height: 16px; }
+  .bio-text {
+    font-size: .85rem;
+  }
+  .bio-list {
+    margin: .5rem 0 1rem 1rem;
+  }
+  .bio-list li {
+    font-size: .85rem;
+    margin-bottom: .5rem;
+  }
+  .robot-photo {
+    max-width: 100%;
+  }
+  .card {
+    padding: 1rem;
+  }
+  .card-title {
+    font-size: .85rem;
+  }
+  .card-meta {
+    font-size: .72rem;
+  }
+  .card-body {
+    font-size: .82rem;
+  }
+  .card-links a {
+    font-size: .7rem;
+    padding: .2rem .5rem;
+  }
+  .card-img {
+    max-width: 100%;
+  }
+  .research-video {
+    max-width: 100%;
+  }
+  .pub-entry {
+    font-size: .78rem;
+    padding: .5rem 0;
+  }
+  .award-list li, .service-list li {
+    font-size: .78rem;
+    padding: .4rem 0 .4rem 1.2rem;
+  }
+  .year-heading {
+    font-size: .72rem;
+    margin: 2rem 0 .5rem;
+  }
+  .patent-block {
+    padding: .85rem 1rem;
+  }
+  .patent-block h4 {
+    font-size: .8rem;
+  }
+  .patent-block p {
+    font-size: .74rem;
+  }
+  .disclaimer {
+    font-size: .7rem;
+    margin-top: 2rem;
+  }
+  .site-footer {
+    font-size: .68rem;
+    padding: 1rem;
+  }
+
+  /* Mobile-specific adjustments for better readability */
+  body {
+    font-size: 14px;
+  }
+
+  /* Stack card elements vertically on very small screens */
+  .card-body {
+    flex-direction: column;
+  }
+
+  /* Adjust video controls for mobile */
+  .research-video {
+    width: 100%;
+  }
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media (max-width: 320px) {
+  .avatar-wrap { width: 60px; height: 60px; }
+  .sidebar h1 { font-size: .9rem; }
+  .main {
+    padding: .75rem .5rem;
+  }
+  .page-header h2 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  /* Truncate the long header text on very small screens */
+  @media (max-width: 360px) {
+    .page-header h2 {
+      font-size: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+  }
+  .bio-text {
+    font-size: .82rem;
+  }
+  .card {
+    padding: .85rem;
+  }
+  .pub-entry {
+    font-size: .76rem;
+  }
+  .award-list li, .service-list li {
+    font-size: .76rem;
+    padding: .35rem 0 .35rem 1.1rem;
+  }
+}
+
+/* Top navigation menu */
+.top-nav {
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  overflow-x: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.top-nav::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+.top-nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.top-nav-list li {
+  margin: 0;
+}
+
+.top-nav-list a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  transition: all var(--transition);
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.top-nav-list a:hover {
+  background: var(--bg-hover);
+  color: var(--text-bright);
+}
+
+.top-nav-list a.active {
+  background: var(--accent-glow);
+  color: var(--accent);
+  border: 1px solid rgba(100, 181, 246, 0.3);
+}
+
+/* Touch targets for mobile navigation */
+@media (max-width: 768px) {
+  .top-nav-list a {
+    padding: 0.75rem 1rem;
+    min-height: 44px;
+  }
+}
+
+/* Mobile menu toggle */
+.mobile-menu-toggle {
+  display: none;
+  position: sticky;
+  top: 0;
+  background: var(--bg-surface);
+  padding: 1rem;
+  z-index: 100;
+  border-bottom: 1px solid var(--border);
+}
+
+#menuToggle {
+  background: none;
+  border: none;
+  color: var(--text-bright);
+  cursor: pointer;
+  padding: .5rem;
+  border-radius: var(--radius);
+  transition: background var(--transition);
+}
+
+#menuToggle:hover {
+  background: var(--bg-hover);
+}
+
+/* Show mobile menu toggle on small screens */
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  /* Show top navigation as a dropdown on mobile */
+  .top-nav {
+    display: none;
+  }
+
+  .nav-active .top-nav {
+    display: block;
+    position: static;
+    border-radius: var(--radius);
+    margin: 0.5rem 1rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .top-nav-list {
+    flex-direction: column;
+    max-height: 40vh;
+    overflow-y: auto;
+    background: var(--bg-card);
+    border-radius: var(--radius);
+  }
+
+  .top-nav-list a {
+    border-radius: 0;
+    margin: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .top-nav-list a:last-child {
+    border-bottom: none;
+  }
+
+  /* Maintain proper spacing */
+  .top-nav-list li {
+    width: 100%;
+  }
+
+  .top-nav-list a {
+    border-radius: var(--radius);
+    margin: 0.25rem 0.5rem;
+  }
+}
+
+/* Touch targets for mobile */
+a, button, .sidebar-links a, .sidebar-nav a, .card-links a {
+  min-height: 44px; /* Minimum recommended touch target size: 44px */
+  min-width: 44px;
+  padding: 11px; /* Adjust padding to ensure adequate touch target */
+}
+
+/* Adjust touch targets specifically for navigation */
+.sidebar-links a, .sidebar-nav a {
+  padding: 12px 16px;
+  min-height: auto;
+  min-width: auto;
+}
+
+/* Mobile navigation enhancements */
+@media (max-width: 1024px) {
+  .sidebar-links a, .sidebar-nav a {
+    padding: 10px 14px;
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Make card links more touch-friendly */
+  .card-links a {
+    padding: 8px 12px;
+    min-height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-links a, .sidebar-nav a {
+    padding: 8px 12px;
+    min-height: 40px;
+  }
+
+  .card-links a {
+    padding: 6px 10px;
+    font-size: .68rem;
+    min-height: 34px;
+  }
 }
 
 /* ============================================================

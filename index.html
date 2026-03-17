@@ -57,53 +57,36 @@
         </a>
       </li>
     </ul>
-    <ul class="sidebar-nav" id="nav">
-      <li>
-        <a href="#home" class="active" data-page="home">
-          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L10 4l7 6.5"/><path d="M5 9v7a1 1 0 001 1h3v-4h2v4h3a1 1 0 001-1V9"/></svg>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#research" data-page="research">
-          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.5 12.5L17 17"/></svg>
-          Research
-        </a>
-      </li>
-      <li>
-        <a href="#publications" data-page="publications">
-          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1z"/><path d="M7 7h6M7 10h6M7 13h4"/></svg>
-          Publications
-        </a>
-      </li>
-      <li>
-        <a href="#patents" data-page="patents">
-          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v4M10 14v4M4.93 4.93l2.83 2.83M12.24 12.24l2.83 2.83M2 10h4M14 10h4M4.93 15.07l2.83-2.83M12.24 7.76l2.83-2.83"/></svg>
-          Patents
-        </a>
-      </li>
-      <li>
-        <a href="#awards" data-page="awards">
-          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="7" r="4"/><path d="M6.5 10.5L5 17l5-2.5L15 17l-1.5-6.5"/></svg>
-          Awards
-        </a>
-      </li>
-      <li>
-        <a href="#service" data-page="service">
-          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7a6 6 0 01-12 0 6 6 0 0112 0z"/><path d="M10 13v4M7 17h6"/></svg>
-          Service
-        </a>
-      </li>
-    </ul>
   </aside>
 
   <!-- ======== MAIN ======== -->
   <main class="main">
 
+    <!-- Mobile menu toggle button -->
+    <div class="mobile-menu-toggle" style="display: none;">
+      <button id="menuToggle" aria-label="Toggle navigation menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Top navigation menu -->
+    <nav class="top-nav">
+      <ul class="top-nav-list">
+        <li><a href="#home" class="active" data-page="home">Home</a></li>
+        <li><a href="#research" data-page="research">Research</a></li>
+        <li><a href="#publications" data-page="publications">Publications</a></li>
+        <li><a href="#patents" data-page="patents">Patents</a></li>
+        <li><a href="#awards" data-page="awards">Awards</a></li>
+        <li><a href="#service" data-page="service">Service</a></li>
+      </ul>
+    </nav>
+
     <!-- ~~~~ HOME ~~~~ -->
     <section id="page-home" class="page">
       <div class="page-header">
-        <h2>Welcome<span class="cursor"></span></h2>
+        <h2>Welcome to Gongjie Zhang's homepage!<span class="cursor"></span></h2>
       </div>
 
       <div class="pinned-msg">
@@ -120,7 +103,7 @@
           <li><strong>Physical Environments</strong> &mdash; Embodied AI, 3D vision, MLLMs for spatial intelligence, Vision-Language-Action (VLA) models, robotic manipulation, and autonomous driving.</li>
           <li><strong>Virtual Environments</strong> &mdash; Training agentic MLLMs (SFT, RL, Visual CoT, Tool Use, MCP) to deliver product-ready <strong>GUI Agents</strong> for mobile, desktop, and web browsers.</li>
         </ul>
-        <p>He is currently focused on building <strong>GUI Agents</strong> that bring intelligent automation to everyday device interactions.</p>
+        <p>He is currently focused on building <strong>product-ready Mobile GUI Agent</strong> that bring intelligent automation to everyday device interactions.</p>
 
         <img src="images/me_playing_robots.jpg" alt="Gongjie playing with robot" class="robot-photo">
       </div>
@@ -323,7 +306,7 @@
       <div class="page-header">
         <h2>Publications</h2>
       </div>
-      <p style="margin-bottom:1.5rem; font-size:.88rem; color:var(--text-dim);">2,300+ citations on <a href="https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+      <!-- Removed citation count to de-emphasize and add more space -->
 
       <!-- 2026 -->
       <div class="year-heading">2026</div>
@@ -629,7 +612,7 @@
 /* Simple hash-based page router */
 (function() {
   const pages = document.querySelectorAll('.page');
-  const navLinks = document.querySelectorAll('#nav a');
+  const navLinks = document.querySelectorAll('#nav a, .top-nav-list a');
 
   function showPage(id) {
     pages.forEach(p => p.style.display = 'none');
@@ -644,7 +627,7 @@
       target.style.animation = '';
     }
 
-    const activeLink = document.querySelector('#nav a[data-page="' + id + '"]');
+    const activeLink = document.querySelector(`#nav a[data-page="${id}"], .top-nav-list a[data-page="${id}"]`);
     if (activeLink) activeLink.classList.add('active');
   }
 
@@ -656,8 +639,34 @@
   }
 
   window.addEventListener('hashchange', route);
+
+  // Add event listeners to top nav links as well
+  document.querySelectorAll('.top-nav-list a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const page = this.getAttribute('data-page');
+      showPage(page);
+      // Update URL hash
+      window.location.hash = page;
+
+      // Close mobile menu if open
+      document.querySelector('.site-wrapper').classList.remove('nav-active');
+    });
+  });
+
   route();
 })();
+
+// Mobile menu toggle functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.getElementById('menuToggle');
+  const siteWrapper = document.querySelector('.site-wrapper');
+
+  if (menuToggle) {
+    menuToggle.addEventListener('click', function() {
+      siteWrapper.classList.toggle('nav-active');
+    });
+  }
+});
 </script>
 
 </body>

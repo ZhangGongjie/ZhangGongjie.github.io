@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gongjie Zhang</title>
+  <meta name="description" content="Homepage of Dr. Gongjie Zhang, AI Research Scientist at Tongyi Lab, Alibaba Group.">
+  <meta name="author" content="Gongjie Zhang">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="site-wrapper">
+
+  <!-- ======== SIDEBAR ======== -->
+  <aside class="sidebar">
+    <div class="avatar-wrap">
+      <img src="images/gongjie_photo_202406.jpg" alt="Gongjie Zhang">
+    </div>
+    <div class="sidebar-info">
+      <h1>Gongjie Zhang</h1>
+      <p class="subtitle">AI Research Scientist</p>
+      <p class="affiliation">Tongyi Lab, Alibaba Group, Singapore</p>
+    </div>
+    <ul class="sidebar-links">
+      <li>
+        <a href="mailto:gjz@ieee.org">
+          <svg viewBox="0 0 16 16"><path d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0114.25 14H1.75A1.75 1.75 0 010 12.25v-8.5C0 2.784.784 2 1.75 2zM1.5 3.75v.736l6.5 3.9 6.5-3.9V3.75a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25zm13 2.104l-6.236 3.742a.5.5 0 01-.528 0L1.5 5.854v6.396c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V5.854z"/></svg>
+          gjz@ieee.org
+        </a>
+      </li>
+      <li>
+        <a href="https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0L0 6h2.5v7.5h11V6H16L8 0zm0 2.19L12 5.5v6.5h-8V5.5L8 2.19zM6.5 7v1.5h3V7h-3z"/></svg>
+          Google Scholar
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/ZhangGongjie" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/gongjiezhang" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M13.6 1H2.4C1.6 1 1 1.6 1 2.4v11.2c0 .8.6 1.4 1.4 1.4h11.2c.8 0 1.4-.6 1.4-1.4V2.4c0-.8-.6-1.4-1.4-1.4zM5.3 13H3.1V6.5h2.2V13zM4.2 5.6c-.7 0-1.3-.6-1.3-1.3s.6-1.3 1.3-1.3 1.3.6 1.3 1.3-.6 1.3-1.3 1.3zM13 13h-2.2V9.8c0-.7 0-1.7-1-1.7s-1.2.8-1.2 1.6V13H6.4V6.5h2.1v.9c.3-.6 1-1 2-1 2.1 0 2.5 1.4 2.5 3.2V13z"/></svg>
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="http://orcid.org/0000-0003-0506-8357" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="8" y="11.5" text-anchor="middle" font-size="9" font-weight="700" fill="currentColor">iD</text></svg>
+          ORCID
+        </a>
+      </li>
+    </ul>
+    <ul class="sidebar-nav" id="nav">
+      <li>
+        <a href="#home" class="active" data-page="home">
+          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L10 4l7 6.5"/><path d="M5 9v7a1 1 0 001 1h3v-4h2v4h3a1 1 0 001-1V9"/></svg>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#research" data-page="research">
+          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.5 12.5L17 17"/></svg>
+          Research
+        </a>
+      </li>
+      <li>
+        <a href="#publications" data-page="publications">
+          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1z"/><path d="M7 7h6M7 10h6M7 13h4"/></svg>
+          Publications
+        </a>
+      </li>
+      <li>
+        <a href="#patents" data-page="patents">
+          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v4M10 14v4M4.93 4.93l2.83 2.83M12.24 12.24l2.83 2.83M2 10h4M14 10h4M4.93 15.07l2.83-2.83M12.24 7.76l2.83-2.83"/></svg>
+          Patents
+        </a>
+      </li>
+      <li>
+        <a href="#awards" data-page="awards">
+          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="7" r="4"/><path d="M6.5 10.5L5 17l5-2.5L15 17l-1.5-6.5"/></svg>
+          Awards
+        </a>
+      </li>
+      <li>
+        <a href="#service" data-page="service">
+          <svg class="nav-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7a6 6 0 01-12 0 6 6 0 0112 0z"/><path d="M10 13v4M7 17h6"/></svg>
+          Service
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- ======== MAIN ======== -->
+  <main class="main">
+
+    <!-- ~~~~ HOME ~~~~ -->
+    <section id="page-home" class="page">
+      <div class="page-header">
+        <h2>Welcome<span class="cursor"></span></h2>
+      </div>
+
+      <div class="pinned-msg">
+        <svg class="pin-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M4.456.734a1.75 1.75 0 012.826.504l.613 2.456 3.373-.96a1.75 1.75 0 012.19 1.197l.145.578a1.75 1.75 0 01-1.074 2.1L9.15 7.77l1.174 4.696a.75.75 0 01-1.45.362L7.7 8.133l-3.378.96a1.75 1.75 0 01-2.19-1.197l-.145-.578a1.75 1.75 0 011.074-2.1l3.378-.96-.613-2.456a1.75 1.75 0 01.63-1.068z"/></svg>
+        My previous email GongjieZhang@ntu.edu.sg has expired.
+      </div>
+
+      <div class="bio-text">
+        <h3>Biography</h3>
+        <p>Dr. Gongjie Zhang is an AI research scientist at <strong>Tongyi Lab, Alibaba Group</strong>. He holds a Ph.D. from Nanyang Technological University (NTU), Singapore (advised by Prof. Shijian Lu) and a B.Eng. from Northeastern University, China.</p>
+
+        <p>His ultimate goal is to build generalist <strong>Agentic AI</strong> &mdash; powered by Multimodal Large Language Models (MLLMs) &mdash; that can autonomously perceive, reason about, and interact with both the physical and virtual worlds:</p>
+        <ul class="bio-list">
+          <li><strong>Physical Environments</strong> &mdash; Embodied AI, 3D vision, MLLMs for spatial intelligence, Vision-Language-Action (VLA) models, robotic manipulation, and autonomous driving.</li>
+          <li><strong>Virtual Environments</strong> &mdash; Training agentic MLLMs (SFT, RL, Visual CoT, Tool Use, MCP) to deliver product-ready <strong>GUI Agents</strong> for mobile, desktop, and web browsers.</li>
+        </ul>
+        <p>He is currently focused on building <strong>GUI Agents</strong> that bring intelligent automation to everyday device interactions.</p>
+
+        <img src="images/me_playing_robots.jpg" alt="Gongjie playing with robot" class="robot-photo">
+      </div>
+
+      <h3>Contact</h3>
+      <p class="contact-line"><span class="label">Email</span> gjz [at] ieee [dot] org</p>
+
+      <div class="disclaimer">
+        <p>Disclaimer: The views expressed on this website are solely my own and do not reflect the views of my employer or any other organization with which I am affiliated. All information provided here does not constitute professional advice.</p>
+        <p>Last Update: March 2026</p>
+      </div>
+    </section>
+
+    <!-- ~~~~ RESEARCH ~~~~ -->
+    <section id="page-research" class="page" style="display:none">
+      <div class="page-header">
+        <h2>Research Highlights</h2>
+      </div>
+
+      <!-- Towards Scalable Spatial Intelligence -->
+      <div class="card">
+        <div class="card-title">
+          <a href="https://zhanggongjie.github.io/TowardsSSI-page/" target="_blank" rel="noopener">Towards Scalable Spatial Intelligence via 2D-to-3D Data Lifting</a>
+        </div>
+        <div class="card-meta">
+          Xingyu Miao, Haoran Duan, Quanhao Qian, Jiuniu Wang, Yang Long, Ling Shao, Deli Zhao, Ran Xu, and <span class="me">Gongjie Zhang</span>&ensp;
+          <br><em>IEEE/CVF International Conference on Computer Vision (ICCV), 2025 (Highlight)</em>
+        </div>
+        <div class="card-body">
+          <video class="research-video" controls>
+            <source src="https://zhanggongjie.github.io/TowardsSSI-page/static/videos/video.mp4" type="video/mp4">
+          </video>
+          <img src="https://zhanggongjie.github.io/TowardsSSI-page/static/images/pipline.jpg" alt="TowardsSSI pipeline" class="card-img" style="max-width:512px">
+          <p><strong>TL;DR</strong>&ensp;We propose a scalable 2D-to-3D lifting pipeline that converts single-view images into scale-calibrated 3D (depth, camera poses, point clouds, pseudo-RGBD), releasing COCO-3D and Objects365-v2-3D datasets. Pretraining on these data boosts 3D perception, enables zero-shot 3D segmentation, and strengthens 3D vision-language/MLLM spatial reasoning &mdash; greatly reducing reliance on costly sensor-collected 3D data.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://www.arxiv.org/abs/2507.18678" target="_blank">paper</a>
+          <a href="https://zhanggongjie.github.io/TowardsSSI-page/" target="_blank">code</a>
+          <a href="https://zhanggongjie.github.io/TowardsSSI-page/" target="_blank">data</a>
+        </div>
+      </div>
+
+      <!-- MapVR -->
+      <div class="card">
+        <div class="card-title">Online Map Vectorization for Autonomous Driving: A Rasterization Perspective</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Jiahao Lin, Shuang Wu, Yilin Song, Zhipeng Luo, Yang Xue, Shijian Lu, and Zuoguan Wang
+          <br><em>NeurIPS, 2023</em>
+        </div>
+        <div class="card-body">
+          <img src="images/MapVR1.jpg" alt="MapVR1" class="card-img" style="max-width:512px">
+          <img src="images/MapVR2.jpg" alt="MapVR2" class="card-img" style="max-width:512px">
+          <p><strong>TL;DR</strong>&ensp;Rasterization can offer complementary benefits to map vectorization. We propose (i) MapVR, a precise map vectorization framework bridging rasterization and vectorization, and (ii) a highly sensitive rasterization-based metric for map vectorization.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://arxiv.org/pdf/2306.10502" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/MapVR" target="_blank">code</a>
+        </div>
+      </div>
+
+      <!-- IMFA -->
+      <div class="card">
+        <div class="card-title">Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Zhipeng Luo, Zichen Tian, Jingyi Zhang, Xiaoqin Zhang, and Shijian Lu
+          <br><em>CVPR, 2023</em>
+        </div>
+        <div class="card-body">
+          <img src="images/IMFA.jpg" alt="IMFA" class="card-img" style="max-width:512px">
+          <p><strong>TL;DR</strong>&ensp;IMFA (Iterative Multi-scale Feature Aggregation) is the first generic paradigm to efficiently leverage multi-scale features in Transformer-based detectors. It only samples multi-scale features from a few crucial keypoints within a few promising regions, achieving high accuracy at small computational overheads.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://arxiv.org/abs/2208.11356" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/IMFA" target="_blank">code</a>
+        </div>
+      </div>
+
+      <!-- Meta-DETR -->
+      <div class="card">
+        <div class="card-title">Meta-DETR: Image-Level Few-Shot Detection with Inter-Class Correlation Exploitation</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing
+          <br><em>IEEE T-PAMI, 2022</em>
+        </div>
+        <div class="card-body">
+          <img src="images/MetaDETR1.jpg" alt="MetaDETR1" class="card-img" style="max-width:500px">
+          <img src="images/MetaDETR2.jpg" alt="MetaDETR2" class="card-img" style="max-width:500px">
+          <p><strong>TL;DR</strong>&ensp;Meta-DETR performs image-level meta-learning-based prediction and exploits inter-class correlation to enhance generalization to new classes, entirely bypassing the proposal quality gap between base and novel classes.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://arxiv.org/abs/2208.00219" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/Meta-DETR" target="_blank">code</a>
+          <a href="https://towardsdatascience.com/review-on-few-shot-object-detection-185965e0e6a2" target="_blank">blog</a>
+        </div>
+      </div>
+
+      <!-- SAM-DETR++ -->
+      <div class="card">
+        <div class="card-title">Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing
+          <br><em>IJCV, 2024</em>
+        </div>
+        <div class="card-body">
+          <img src="images/SAM-DETR++.jpg" alt="SAM-DETR++" class="card-img" style="max-width:500px">
+          <p><strong>TL;DR</strong>&ensp;SAM-DETR++ extends the semantics-aligned matching mechanism to fuse multi-scale features that are inherently unaligned in semantics, achieving even faster convergence and superior detection accuracy.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://arxiv.org/abs/2207.14172" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/SAM-DETR" target="_blank">code</a>
+        </div>
+      </div>
+
+      <!-- SAM-DETR -->
+      <div class="card">
+        <div class="card-title">Accelerating DETR Convergence via Semantic-Aligned Matching</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu
+          <br><em>CVPR, 2022</em>
+        </div>
+        <div class="card-body">
+          <img src="images/SAM-DETR.jpg" alt="SAM-DETR" class="card-img" style="max-width:600px">
+          <p><strong>TL;DR</strong>&ensp;SAM-DETR converges within 12 epochs and outperforms the strong Faster R-CNN (w/ FPN) baseline on COCO, using the proposed semantic-aligned matching mechanism.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Accelerating_DETR_Convergence_via_Semantic-Aligned_Matching_CVPR_2022_paper.pdf" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/SAM-DETR" target="_blank">code</a>
+        </div>
+      </div>
+
+      <!-- Defect-GAN -->
+      <div class="card">
+        <div class="card-title">Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu
+          <br><em>WACV, 2021</em>
+        </div>
+        <div class="card-body">
+          <img src="images/DefectGAN.jpg" alt="Defect-GAN" class="card-img" style="max-width:500px">
+          <img src="images/DefectGAN2.jpg" alt="Defect-GAN2" class="card-img" style="max-width:500px">
+          <p><strong>TL;DR</strong>&ensp;Defect-GAN performs high-fidelity defect synthesis with many normal samples and a limited number of defect samples. The technique is patent-protected and is being used in real scenarios.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://openaccess.thecvf.com/content/WACV2021/html/Zhang_Defect-GAN_High-Fidelity_Defect_Synthesis_for_Automated_Defect_Inspection_WACV_2021_paper.html" target="_blank">paper</a>
+        </div>
+      </div>
+
+      <!-- PNPDet -->
+      <div class="card">
+        <div class="card-title">PNPDet: Efficient Few-Shot Detection Without Forgetting via Plug-and-Play Sub-Networks</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Kaiwen Cui, Rongliang Wu, Shijian Lu, and Yonghong Tian
+          <br><em>WACV, 2021</em>
+        </div>
+        <div class="card-body">
+          <img src="images/PNPDet.jpg" alt="PNPDet" class="card-img" style="max-width:500px">
+          <p><strong>TL;DR</strong>&ensp;A fine-tuning-based few-shot object detector that learns new concepts without forgetting via weight-normalized sub-networks.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://openaccess.thecvf.com/content/WACV2021/html/Zhang_PNPDet_Efficient_Few-Shot_Detection_Without_Forgetting_via_Plug-and-Play_Sub-Networks_WACV_2021_paper.html" target="_blank">paper</a>
+        </div>
+      </div>
+
+      <!-- Cascade EF-GAN -->
+      <div class="card">
+        <div class="card-title">Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses</div>
+        <div class="card-meta">
+          Rongliang Wu, <span class="me">Gongjie Zhang</span>, Shijian Lu, and Tao Chen
+          <br><em>CVPR (Oral), 2020</em>
+        </div>
+        <div class="card-body">
+          <img src="images/CascadeEFGAN.jpg" alt="CascadeEF-GAN" class="card-img" style="max-width:600px">
+          <p><strong>TL;DR</strong>&ensp;Realistic facial expression editing via separate branches focusing on certain areas (eyes, noses, etc.), performed iteratively.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://arxiv.org/abs/2003.05905" target="_blank">paper</a>
+        </div>
+      </div>
+
+      <!-- CAD-Net -->
+      <div class="card">
+        <div class="card-title">CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery</div>
+        <div class="card-meta">
+          <span class="me">Gongjie Zhang</span>, Shijian Lu, and Wei Zhang
+          <br><em>IEEE T-GRS, vol.57, no.12, 2019</em>
+        </div>
+        <div class="card-body">
+          <img src="images/CAD-Net.jpg" alt="CAD-Net" class="card-img" style="max-width:500px">
+          <p><strong>TL;DR</strong>&ensp;One of the earliest works to apply Faster R-CNN to rotated object detection in remote sensing images, using multi-level contextual information.</p>
+        </div>
+        <div class="card-links">
+          <a href="https://arxiv.org/abs/1903.00857" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/CAD-Net" target="_blank">code</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~ PUBLICATIONS ~~~~ -->
+    <section id="page-publications" class="page" style="display:none">
+      <div class="page-header">
+        <h2>Publications</h2>
+      </div>
+      <p style="margin-bottom:1.5rem; font-size:.88rem; color:var(--text-dim);">2,300+ citations on <a href="https://scholar.google.com/citations?user=sRBTPp4AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+
+      <!-- 2026 -->
+      <div class="year-heading">2026</div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, <em>et al.</em></span>
+        <span class="pub-title">"On the Generalization Capacities of MLLMs for Spatial Intelligence."</span>
+        <span class="pub-venue"> ICLR 2026 (Oral).</span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Quanhao Qian, Guang Zhao, <strong>Gongjie Zhang</strong>, Jiuniu Wang, Jiaxin Gao, Deli Zhao, and Ran Xu.</span>
+        <span class="pub-title">"GP3: A 3D Geometry-Aware Policy with Multi-View Images for Robotic Manipulation."</span>
+        <span class="pub-venue"> ICRA 2026.</span>
+      </div>
+
+      <!-- 2025 -->
+      <div class="year-heading">2025</div>
+      <div class="pub-entry">
+        <span class="pub-authors">Jiuniu Wang, <strong>Gongjie Zhang</strong>, Quanhao Qian, Jiaxin Gao, Deli Zhao, and Ran Xu.</span>
+        <span class="pub-title">"RoboSVG: A Unified Framework for Interactive SVG Generation with Multi-modal Guidance."</span>
+        <span class="pub-venue"> arXiv preprint, 2025.</span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Xingyu Miao, Haoran Duan, Quanhao Qian, Jiuniu Wang, Yang Long, Ling Shao, Deli Zhao, Ran Xu, and <strong>Gongjie Zhang</strong>.</span>
+        <span class="pub-title">"Towards Scalable Spatial Intelligence via 2D-to-3D Data Lifting."</span>
+        <span class="pub-venue"> ICCV 2025 (Highlight).</span>
+        <span class="card-links">
+          <a href="https://www.arxiv.org/abs/2507.18678" target="_blank">paper</a>
+          <a href="https://zhanggongjie.github.io/TowardsSSI-page/" target="_blank">code</a>
+          <a href="https://zhanggongjie.github.io/TowardsSSI-page/" target="_blank">data</a>
+        </span>
+      </div>
+
+      <!-- 2024 -->
+      <div class="year-heading">2024</div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Zhipeng Luo, Jiaxing Huang, Shijian Lu, and Eric P. Xing.</span>
+        <span class="pub-title">"Semantic-Aligned Matching for Enhanced DETR Convergence and Multi-Scale Feature Fusion."</span>
+        <span class="pub-venue"> IJCV, vol. 132, pp. 2825&ndash;2844, 2024.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2207.14172" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/SAM-DETR" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Zhipeng Luo, <strong>Gongjie Zhang</strong>, Changqing Zhou, Zhonghua Wu, Qingyi Tao, Lewei Lu, and Shijian Lu.</span>
+        <span class="pub-title">"Modeling Continuous Motion for 3D Point Cloud Object Tracking."</span>
+        <span class="pub-venue"> AAAI 2024.</span>
+        <span class="card-links"><a href="https://arxiv.org/pdf/2303.07605.pdf" target="_blank">paper</a></span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Qiu Han, <strong>Gongjie Zhang</strong>, Jiaxing Huang, Peng Gao, Zhang Wei, and Shijian Lu.</span>
+        <span class="pub-title">"Efficient MAE Towards Large-Scale Vision Transformers."</span>
+        <span class="pub-venue"> WACV 2024.</span>
+        <span class="card-links"><a href="https://openaccess.thecvf.com/content/WACV2024/papers/Han_Efficient_MAE_Towards_Large-Scale_Vision_Transformers_WACV_2024_paper.pdf" target="_blank">paper</a></span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Zhipeng Luo, Changqing Zhou, Liang Pan, <strong>Gongjie Zhang</strong>, Tianrui Liu, Yueru Luo, Haiyu Zhao, Ziwei Liu, and Shijian Lu.</span>
+        <span class="pub-title">"Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer."</span>
+        <span class="pub-venue"> IEEE T-PAMI, vol.46, no.9, pp.5921&ndash;5935, 2024.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2208.05216" target="_blank">paper</a>
+          <a href="https://github.com/Jasonkks/PTTR" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Jiahao Nie, Yun Xing, <strong>Gongjie Zhang</strong>, Pei Yan, Aoran Xiao, Yap-Peng Tan, Alex C Kot, and Shijian Lu.</span>
+        <span class="pub-title">"Cross-Domain Few-Shot Segmentation via Iterative Support-Query Correspondence Mining."</span>
+        <span class="pub-venue"> CVPR 2024.</span>
+        <span class="card-links"><a href="https://arxiv.org/abs/2401.08407" target="_blank">paper</a></span>
+      </div>
+
+      <!-- 2023 -->
+      <div class="year-heading">2023</div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Jiahao Lin, Shuang Wu, Yilin Song, Zhipeng Luo, Yang Xue, Shijian Lu, and Zuoguan Wang.</span>
+        <span class="pub-title">"Online Map Vectorization for Autonomous Driving: A Rasterization Perspective."</span>
+        <span class="pub-venue"> NeurIPS 2023.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/pdf/2306.10502" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/MapVR" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Zhipeng Luo, Zichen Tian, Jingyi Zhang, Xiaoqin Zhang, and Shijian Lu.</span>
+        <span class="pub-title">"Towards Efficient Use of Multi-Scale Features in Transformer-Based Object Detectors."</span>
+        <span class="pub-venue"> CVPR 2023.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2208.11356" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/IMFA" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Jingyi Zhang, Jiaxing Huang, Zhipeng Luo, <strong>Gongjie Zhang</strong>, Xiaoqin Zhang, and Shijian Lu.</span>
+        <span class="pub-title">"DA-DETR: Domain Adaptive Detection Transformer with Information Fusion."</span>
+        <span class="pub-venue"> CVPR 2023.</span>
+        <span class="card-links"><a href="https://arxiv.org/abs/2103.17084" target="_blank">paper</a></span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Zhipeng Luo, <strong>Gongjie Zhang</strong>, Changqing Zhou, Tianrui Liu, Shijian Lu, and Liang Pan.</span>
+        <span class="pub-title">"TransPillars: Coarse-to-Fine Aggregation for Multi-Frame 3D Object Detection."</span>
+        <span class="pub-venue"> WACV 2023.</span>
+        <span class="card-links"><a href="https://arxiv.org/abs/2208.03141" target="_blank">paper</a></span>
+      </div>
+
+      <!-- 2022 -->
+      <div class="year-heading">2022</div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Zhipeng Luo, Kaiwen Cui, Shijian Lu, and Eric P. Xing.</span>
+        <span class="pub-title">"Meta-DETR: Image-Level Few-Shot Detection with Inter-Class Correlation Exploitation."</span>
+        <span class="pub-venue"> IEEE T-PAMI, 2022.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2208.00219" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/Meta-DETR" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Zhipeng Luo, Yingchen Yu, Kaiwen Cui, and Shijian Lu.</span>
+        <span class="pub-title">"Accelerating DETR Convergence via Semantic-Aligned Matching."</span>
+        <span class="pub-venue"> CVPR 2022.</span>
+        <span class="card-links">
+          <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Accelerating_DETR_Convergence_via_Semantic-Aligned_Matching_CVPR_2022_paper.pdf" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/SAM-DETR" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Kaiwen Cui, Jiaxing Huang, Zhipeng Luo, <strong>Gongjie Zhang</strong>, Fangneng Zhan, and Shijian Lu.</span>
+        <span class="pub-title">"GenCo: Generative Co-training for Generative Adversarial Networks with Limited Data."</span>
+        <span class="pub-venue"> AAAI 2022.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2110.01254" target="_blank">paper</a>
+          <a href="https://github.com/jxhuang0508/GenCo" target="_blank">code</a>
+        </span>
+      </div>
+
+      <!-- 2021 -->
+      <div class="year-heading">2021</div>
+      <div class="pub-entry">
+        <span class="pub-authors">Zhipeng Luo, Zhongang Cai, Changqing Zhou, <strong>Gongjie Zhang</strong>, Haiyu Zhao, Shuai Yi, Shijian Lu, Hongsheng Li, Shanghang Zhang, and Ziwei Liu.</span>
+        <span class="pub-title">"Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency."</span>
+        <span class="pub-venue"> ICCV 2021.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2107.11355" target="_blank">paper</a>
+          <a href="https://github.com/Jasonkks/mlcnet" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors">Fangneng Zhan, Yingchen Yu, Kaiwen Cui, <strong>Gongjie Zhang</strong>, Shijian Lu, Jianxiong Pan, Changgong Zhang, Feiying Ma, Xuansong Xie, and Chunyan Miao.</span>
+        <span class="pub-title">"Unbalanced Feature Transport for Exemplar-Based Image Translation."</span>
+        <span class="pub-venue"> CVPR 2021.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/2106.10482" target="_blank">paper</a>
+          <a href="https://github.com/fnzhan/UNITE" target="_blank">code</a>
+        </span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Kaiwen Cui, Tzu-Yi Hung, and Shijian Lu.</span>
+        <span class="pub-title">"Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection."</span>
+        <span class="pub-venue"> WACV 2021.</span>
+        <span class="card-links"><a href="https://openaccess.thecvf.com/content/WACV2021/html/Zhang_Defect-GAN_High-Fidelity_Defect_Synthesis_for_Automated_Defect_Inspection_WACV_2021_paper.html" target="_blank">paper</a></span>
+      </div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Kaiwen Cui, Rongliang Wu, Shijian Lu, and Yonghong Tian.</span>
+        <span class="pub-title">"PNPDet: Efficient Few-Shot Detection Without Forgetting via Plug-and-Play Sub-Networks."</span>
+        <span class="pub-venue"> WACV 2021.</span>
+        <span class="card-links"><a href="https://openaccess.thecvf.com/content/WACV2021/html/Zhang_PNPDet_Efficient_Few-Shot_Detection_Without_Forgetting_via_Plug-and-Play_Sub-Networks_WACV_2021_paper.html" target="_blank">paper</a></span>
+      </div>
+
+      <!-- 2020 -->
+      <div class="year-heading">2020</div>
+      <div class="pub-entry">
+        <span class="pub-authors">Rongliang Wu, <strong>Gongjie Zhang</strong>, Shijian Lu, and Tao Chen.</span>
+        <span class="pub-title">"Cascade EF-GAN: Progressive Facial Expression Editing with Local Focuses."</span>
+        <span class="pub-venue"> CVPR 2020.</span>
+        <span class="card-links"><a href="https://arxiv.org/abs/2003.05905" target="_blank">paper</a></span>
+      </div>
+
+      <!-- 2019 -->
+      <div class="year-heading">2019</div>
+      <div class="pub-entry">
+        <span class="pub-authors"><strong>Gongjie Zhang</strong>, Shijian Lu, and Wei Zhang.</span>
+        <span class="pub-title">"CAD-Net: A Context-Aware Detection Network for Objects in Remote Sensing Imagery."</span>
+        <span class="pub-venue"> IEEE T-GRS, vol. 57, no. 12, 2019.</span>
+        <span class="card-links">
+          <a href="https://arxiv.org/abs/1903.00857" target="_blank">paper</a>
+          <a href="https://github.com/ZhangGongjie/CAD-Net" target="_blank">code</a>
+        </span>
+      </div>
+    </section>
+
+    <!-- ~~~~ PATENTS ~~~~ -->
+    <section id="page-patents" class="page" style="display:none">
+      <div class="page-header">
+        <h2>Patents</h2>
+      </div>
+
+      <div class="patent-block">
+        <h4>Defect Sample Synthesis Method, Training Method of Defect Inspection Network, Computer-Readable Medium, Computing System, and Image Inspection Apparatus</h4>
+        <p style="color:var(--text-dim); font-size:.78rem; margin-bottom:.5rem;">&#x7F3A;&#x9677;&#x6A23;&#x672C;&#x5408;&#x6210;&#x65B9;&#x6CD5;&#x3001;&#x7F3A;&#x9677;&#x6AA2;&#x67E5;&#x7DB2;&#x8DEF;&#x4E4B;&#x8A13;&#x7DF4;&#x65B9;&#x6CD5;&#x3001;&#x96FB;&#x8166;&#x53EF;&#x8B80;&#x53D6;&#x5A92;&#x9AD4;&#x3001;&#x8A08;&#x7B97;&#x7CFB;&#x7D71;&#x4EE5;&#x53CA;&#x5716;&#x50CF;&#x6AA2;&#x67E5;&#x88DD;&#x7F6E;</p>
+        <p>Inventors: <strong>Gongjie Zhang</strong>, Kaiwen Cui, Shijian Lu and Tzuyi Hung.</p>
+        <p>Proprietor: Delta Electronics Int'l (Singapore)</p>
+        <p style="margin-top:.4rem;">Singapore Patent: 10202114457P (Issued August 2022)</p>
+        <p>China Patent: CN114693595A (Issued July 2022)</p>
+        <p>Taiwan Patent: 202228069 (Issued July 2022)</p>
+      </div>
+
+      <div class="patent-block">
+        <h4>System and Method for Map Vectorization in Advanced Driving Assistance System</h4>
+        <p>Inventors: <strong>Gongjie Zhang</strong>, et al.</p>
+        <p>Proprietor: Black Sesame Technologies</p>
+        <p style="margin-top:.4rem;">U.S. Patent No.: 20240404074</p>
+      </div>
+
+      <div class="patent-block">
+        <h4>System and Method for Embedding Uncertainty Estimation into Deep-Neural-Network-Based Autonomous Driving Perception Frameworks</h4>
+        <p>Inventors: <strong>Gongjie Zhang</strong>, et al.</p>
+        <p>Proprietor: Black Sesame Technologies</p>
+        <p style="margin-top:.4rem;">U.S. Patent No.: 20250282376</p>
+      </div>
+
+      <div class="patent-block">
+        <h4>Method for Generating 3D Scene Data from 2D Images for Spatial Intelligence</h4>
+        <p style="color:var(--text-dim); font-size:.78rem; margin-bottom:.5rem;">&#x4E00;&#x79CD;&#x7528;&#x4E8E;&#x7A7A;&#x95F4;&#x667A;&#x80FD;&#x7684; 2D &#x5230; 3D &#x573A;&#x666F;&#x6570;&#x636E;&#x751F;&#x6210;&#x65B9;&#x6CD5;</p>
+        <p>Inventors: <strong>Gongjie Zhang</strong>, et al.</p>
+        <p>Proprietor: Alibaba Group</p>
+        <p style="margin-top:.4rem;">China Patent under review</p>
+      </div>
+
+      <div class="patent-block">
+        <h4>A Spatially-Aware Multimodal Large Language Model Based on Camera Parameters for Cross-Camera Generalization, and Its Training Method</h4>
+        <p style="color:var(--text-dim); font-size:.78rem; margin-bottom:.5rem;">&#x4E00;&#x79CD;&#x57FA;&#x4E8E;&#x76F8;&#x673A;&#x53C2;&#x6570;&#x5B9E;&#x73B0;&#x8DE8;&#x76F8;&#x673A;&#x6CDB;&#x5316;&#x7684;&#x7A7A;&#x95F4;&#x611F;&#x77E5;&#x591A;&#x6A21;&#x6001;&#x5927;&#x8BED;&#x8A00;&#x6A21;&#x578B;&#x53CA;&#x5176;&#x8BAD;&#x7EC3;&#x65B9;&#x6CD5;</p>
+        <p>Inventors: <strong>Gongjie Zhang</strong>, et al.</p>
+        <p>Proprietor: Alibaba Group</p>
+        <p style="margin-top:.4rem;">China Patent under review</p>
+      </div>
+    </section>
+
+    <!-- ~~~~ AWARDS ~~~~ -->
+    <section id="page-awards" class="page" style="display:none">
+      <div class="page-header">
+        <h2>Honors &amp; Awards</h2>
+      </div>
+
+      <ul class="award-list">
+        <li><strong>Jun. 2018</strong> &mdash; Outstanding Graduation Project of the School of CSE, Northeastern University</li>
+        <li><strong>Nov. 2017</strong> &mdash; National Scholarship of China</li>
+        <li><strong>Dec. 2016</strong> &mdash; HUAWEI Scholarship</li>
+        <li><strong>Nov. 2015</strong> &mdash; National Scholarship of China</li>
+        <li><strong>2014&ndash;2018</strong> &mdash; 4-year First-Class Scholarship of Northeastern University</li>
+        <li><strong>2014&ndash;2018</strong> &mdash; Many awards for undergrad contests, including two national awards in NUEDC (National Undergrad Electronic Design Contest)</li>
+      </ul>
+    </section>
+
+    <!-- ~~~~ SERVICE ~~~~ -->
+    <section id="page-service" class="page" style="display:none">
+      <div class="page-header">
+        <h2>Academic Service</h2>
+      </div>
+
+      <h3>Conference Reviewer</h3>
+      <ul class="service-list">
+        <li>CVPR 2021, 2023, 2024, 2025, 2026</li>
+        <li>ICCV 2021, 2023, 2025</li>
+        <li>ECCV 2024, 2026</li>
+        <li>NeurIPS 2025</li>
+        <li>ACM MM 2022, 2025, 2026</li>
+        <li>WACV 2021, 2024, 2025, 2026</li>
+        <li>BMVC 2022</li>
+        <li>ICPR 2024</li>
+        <li>CAI 2024</li>
+      </ul>
+
+      <h3>Conference Program Committee Member</h3>
+      <ul class="service-list">
+        <li>AAAI 2024, 2025, 2026</li>
+        <li>CVPR 2024 Workshop on Neural Rendering Intelligence</li>
+      </ul>
+
+      <h3>Journal Reviewer</h3>
+      <ul class="service-list">
+        <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)</li>
+        <li>International Journal of Computer Vision (IJCV)</li>
+        <li>IEEE Transactions on Image Processing (T-IP)</li>
+        <li>IEEE Transactions on Neural Networks and Learning Systems (T-NNLS)</li>
+        <li>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT)</li>
+        <li>IEEE Robotics and Automation Letters (RA-L)</li>
+        <li>Neurocomputing</li>
+      </ul>
+
+      <h3>Teaching Assistant</h3>
+      <ul class="service-list">
+        <li>NTU-18-fall &ensp; CE1008 &ensp; Engineering Mathematics</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer class="site-footer">
+  &copy; 2026 Gongjie Zhang. Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+</footer>
+
+<script>
+/* Simple hash-based page router */
+(function() {
+  const pages = document.querySelectorAll('.page');
+  const navLinks = document.querySelectorAll('#nav a');
+
+  function showPage(id) {
+    pages.forEach(p => p.style.display = 'none');
+    navLinks.forEach(a => a.classList.remove('active'));
+
+    const target = document.getElementById('page-' + id);
+    if (target) {
+      target.style.display = 'block';
+      /* re-trigger fade animation */
+      target.style.animation = 'none';
+      target.offsetHeight; /* reflow */
+      target.style.animation = '';
+    }
+
+    const activeLink = document.querySelector('#nav a[data-page="' + id + '"]');
+    if (activeLink) activeLink.classList.add('active');
+  }
+
+  function route() {
+    const hash = location.hash.replace('#', '') || 'home';
+    showPage(hash);
+    /* scroll main to top */
+    document.querySelector('.main').scrollTo(0, 0);
+  }
+
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>
+
+</body>
+</html>

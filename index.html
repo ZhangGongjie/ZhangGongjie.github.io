@@ -62,15 +62,6 @@
   <!-- ======== MAIN ======== -->
   <main class="main">
 
-    <!-- Mobile menu toggle button -->
-    <div class="mobile-menu-toggle" style="display: none;">
-      <button id="menuToggle" aria-label="Toggle navigation menu">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-        </svg>
-      </button>
-    </div>
-
     <!-- Top navigation menu -->
     <nav class="top-nav">
       <ul class="top-nav-list">
@@ -118,7 +109,7 @@
     </section>
 
     <!-- ~~~~ RESEARCH ~~~~ -->
-    <section id="page-research" class="page" style="display:none">
+    <section id="page-research" class="page">
       <div class="page-header">
         <h2>Research Highlights</h2>
       </div>
@@ -302,7 +293,7 @@
     </section>
 
     <!-- ~~~~ PUBLICATIONS ~~~~ -->
-    <section id="page-publications" class="page" style="display:none">
+    <section id="page-publications" class="page">
       <div class="page-header">
         <h2>Publications</h2>
       </div>
@@ -497,7 +488,7 @@
     </section>
 
     <!-- ~~~~ PATENTS ~~~~ -->
-    <section id="page-patents" class="page" style="display:none">
+    <section id="page-patents" class="page">
       <div class="page-header">
         <h2>Patents</h2>
       </div>
@@ -544,7 +535,7 @@
     </section>
 
     <!-- ~~~~ AWARDS ~~~~ -->
-    <section id="page-awards" class="page" style="display:none">
+    <section id="page-awards" class="page">
       <div class="page-header">
         <h2>Honors &amp; Awards</h2>
       </div>
@@ -560,7 +551,7 @@
     </section>
 
     <!-- ~~~~ SERVICE ~~~~ -->
-    <section id="page-service" class="page" style="display:none">
+    <section id="page-service" class="page">
       <div class="page-header">
         <h2>Academic Service</h2>
       </div>
@@ -609,64 +600,60 @@
 </footer>
 
 <script>
-/* Simple hash-based page router */
-(function() {
-  const pages = document.querySelectorAll('.page');
-  const navLinks = document.querySelectorAll('#nav a, .top-nav-list a');
+/* Hash-based page router with smooth class-driven transitions */
+(function () {
+  const pages    = document.querySelectorAll('.page');
+  const navLinks = document.querySelectorAll('.top-nav-list a');
+  const mainEl   = document.querySelector('.main');
 
   function showPage(id) {
-    pages.forEach(p => p.style.display = 'none');
+    /* Hide all pages synchronously */
+    pages.forEach(p => {
+      p.classList.remove('page-visible');
+      p.style.display = 'none';
+    });
+
+    /* Update active nav link */
     navLinks.forEach(a => a.classList.remove('active'));
-
-    const target = document.getElementById('page-' + id);
-    if (target) {
-      target.style.display = 'block';
-      /* re-trigger fade animation */
-      target.style.animation = 'none';
-      target.offsetHeight; /* reflow */
-      target.style.animation = '';
-    }
-
-    const activeLink = document.querySelector(`#nav a[data-page="${id}"], .top-nav-list a[data-page="${id}"]`);
+    const activeLink = document.querySelector(`.top-nav-list a[data-page="${id}"]`);
     if (activeLink) activeLink.classList.add('active');
+
+    /* Show target page */
+    const target = document.getElementById('page-' + id);
+    if (!target) return;
+
+    target.style.display = 'block';
+
+    /* Two rAF frames: let the browser paint display:block first,
+       then add the class to trigger the CSS animation */
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        target.classList.add('page-visible');
+      });
+    });
+
+    /* Scroll content area to top */
+    if (mainEl) mainEl.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   function route() {
     const hash = location.hash.replace('#', '') || 'home';
     showPage(hash);
-    /* scroll main to top */
-    document.querySelector('.main').scrollTo(0, 0);
   }
 
-  window.addEventListener('hashchange', route);
-
-  // Add event listeners to top nav links as well
-  document.querySelectorAll('.top-nav-list a').forEach(link => {
-    link.addEventListener('click', function(e) {
+  /* Nav link clicks */
+  navLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
       const page = this.getAttribute('data-page');
+      history.pushState(null, '', '#' + page);
       showPage(page);
-      // Update URL hash
-      window.location.hash = page;
-
-      // Close mobile menu if open
-      document.querySelector('.site-wrapper').classList.remove('nav-active');
     });
   });
 
+  window.addEventListener('popstate', route);
   route();
 })();
-
-// Mobile menu toggle functionality
-document.addEventListener('DOMContentLoaded', function() {
-  const menuToggle = document.getElementById('menuToggle');
-  const siteWrapper = document.querySelector('.site-wrapper');
-
-  if (menuToggle) {
-    menuToggle.addEventListener('click', function() {
-      siteWrapper.classList.toggle('nav-active');
-    });
-  }
-});
 </script>
 
 </body>

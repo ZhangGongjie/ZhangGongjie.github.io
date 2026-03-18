@@ -3,24 +3,285 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Gongjie Zhang</title>
+  <title>404 — Gongjie Zhang</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
-    body { background: #0d1117; color: #c9d1d9; font-family: 'JetBrains Mono', monospace; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
-    .box { text-align: center; }
-    h1 { font-size: 4rem; color: #58a6ff; margin-bottom: .5rem; }
-    p { color: #8b949e; font-size: .95rem; margin-bottom: 1.5rem; }
-    a { color: #3fb950; text-decoration: none; border: 1px solid #30363d; padding: .5rem 1.2rem; border-radius: 6px; transition: background .15s; }
-    a:hover { background: #161b22; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d1117;
+      --bg-card:   #161b22;
+      --border:    #21262d;
+      --border-hi: #30363d;
+      --accent:    #64b5f6;
+      --accent-glow: rgba(100,181,246,.12);
+      --green:     #3fb950;
+      --text:      #c9d1d9;
+      --text-dim:  #8b949e;
+      --text-bright: #f0f6fc;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* --- Background grid --- */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(100,181,246,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(100,181,246,.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* --- Radial glow --- */
+    body::after {
+      content: '';
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(ellipse at center, rgba(100,181,246,.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      max-width: 560px;
+      width: 100%;
+    }
+
+    /* --- Terminal window --- */
+    .terminal {
+      background: var(--bg-card);
+      border: 1px solid var(--border-hi);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow:
+        0 0 0 1px rgba(100,181,246,.06),
+        0 24px 64px rgba(0,0,0,.6),
+        0 0 80px rgba(100,181,246,.04);
+      margin-bottom: 2rem;
+    }
+
+    .terminal-bar {
+      background: #1c2128;
+      border-bottom: 1px solid var(--border);
+      padding: .65rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    .dot.red    { background: #ff5f57; }
+    .dot.yellow { background: #febc2e; }
+    .dot.green  { background: #28c840; }
+
+    .terminal-title {
+      flex: 1;
+      text-align: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .72rem;
+      color: var(--text-dim);
+      letter-spacing: .03em;
+    }
+
+    .terminal-body {
+      padding: 1.5rem 1.75rem 1.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .88rem;
+      line-height: 1.9;
+      text-align: left;
+    }
+
+    .prompt { color: var(--green); }
+    .cmd    { color: var(--text-bright); }
+    .err    { color: #f85149; }
+    .dim    { color: var(--text-dim); }
+    .hi     { color: var(--accent); }
+
+    /* --- Big 404 --- */
+    .error-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: clamp(4.5rem, 18vw, 8rem);
+      font-weight: 700;
+      color: transparent;
+      -webkit-text-stroke: 2px rgba(100,181,246,.25);
+      letter-spacing: -.04em;
+      line-height: 1;
+      margin-bottom: 1rem;
+      user-select: none;
+      position: relative;
+    }
+
+    .error-code span {
+      position: relative;
+      background: linear-gradient(135deg, var(--accent) 20%, #7c6af7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-text-stroke: 0;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: var(--text-dim);
+      margin-bottom: 2rem;
+      letter-spacing: .01em;
+    }
+
+    /* --- Button --- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      color: var(--accent);
+      background: var(--accent-glow);
+      text-decoration: none;
+      border: 1px solid rgba(100,181,246,.25);
+      padding: .65rem 1.5rem;
+      border-radius: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .85rem;
+      font-weight: 500;
+      transition: all .2s ease;
+      letter-spacing: .02em;
+    }
+
+    .btn:hover {
+      background: rgba(100,181,246,.2);
+      border-color: rgba(100,181,246,.5);
+      box-shadow: 0 0 20px rgba(100,181,246,.15);
+      transform: translateY(-1px);
+    }
+
+    .btn svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    /* --- Blinking cursor --- */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
+    }
+    .cursor {
+      display: inline-block;
+      width: 9px;
+      height: 1.1em;
+      background: var(--green);
+      vertical-align: text-bottom;
+      animation: blink 1.1s step-end infinite;
+      border-radius: 1px;
+    }
+
+    /* --- Footer --- */
+    .footer {
+      position: fixed;
+      bottom: 1.25rem;
+      left: 0; right: 0;
+      text-align: center;
+      font-size: .75rem;
+      color: var(--text-dim);
+      opacity: .6;
+      z-index: 1;
+    }
+
+    .footer a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: var(--text);
+    }
+
+    @media (max-width: 480px) {
+      .terminal-body { padding: 1.25rem 1.25rem 1.5rem; font-size: .8rem; }
+      .subtitle { font-size: .92rem; }
+    }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>404</h1>
-    <p>Page not found. The requested resource does not exist.</p>
-    <a href="/">cd ~</a>
+
+  <div class="container">
+
+    <div class="error-code"><span>404</span></div>
+    <p class="subtitle">Page not found.</p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">bash — gongjie@github-pages</span>
+      </div>
+      <div class="terminal-body">
+        <div><span class="prompt">gongjie@github-pages:~$</span> <span class="cmd">curl https://zhanggongjie.github.io<span id="typed-path"></span></span></div>
+        <div class="err">curl: (404) Not Found — The requested resource does not exist.</div>
+        <div class="dim" style="margin-top:.4rem;"># Hint: try navigating back to home</div>
+        <div style="margin-top:.6rem;"><span class="prompt">gongjie@github-pages:~$</span> <span class="cursor"></span></div>
+      </div>
+    </div>
+
+    <a class="btn" href="/">
+      <svg viewBox="0 0 16 16" fill="currentColor">
+        <path d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"/>
+      </svg>
+      cd ~ &nbsp;/&nbsp; Go Home
+    </a>
+
   </div>
+
+  <div class="footer">
+    &copy; 2026 Gongjie Zhang &nbsp;·&nbsp;
+    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>
+  </div>
+
+  <script>
+    // Simulate typing the wrong URL path
+    const paths = ['/papers/secret', '/lab/robots', '/cv2025.pdf'];
+    const el = document.getElementById('typed-path');
+    const chosen = paths[Math.floor(Math.random() * paths.length)];
+    let i = 0;
+    const type = () => {
+      if (i <= chosen.length) {
+        el.textContent = chosen.slice(0, i++);
+        setTimeout(type, 65 + Math.random() * 40);
+      }
+    };
+    setTimeout(type, 600);
+  </script>
+
 </body>
 </html>
